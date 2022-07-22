@@ -1,0 +1,596 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+}
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+i{
+  cursor: pointer;
+}
+button{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+:root {
+  --white: #fff;
+  --light-blue-white: #e2e8f0;
+  --black: #000;
+  --black-2: #1a1818;
+  --dark-blue: #0d172a;
+  --darken-blue: #1e293b;
+  --gray: #808080;
+  --soft-gray: #d0d3d6;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-size: 1.9em;
+}
+/* ************************** */
+header{
+  z-index: 3;
+}
+.container-offer {
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  background-color: var(--black);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.t-link-offer {
+  width: 81%;
+  font-size: .875em;
+  text-align: center;
+  color: var(--white);
+}
+/* ************************** */
+.container-nav{
+  background-color: var(--white);
+  border: 3px solid var(--black);
+  border-right: none;
+  height: 80px;
+  width:100%;
+  display: flex;
+  position: fixed;
+  top: 20px;
+  z-index: 2;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 3px solid var(--black);
+}
+
+.child.logo {
+  width: 27%;
+  height: 100%;
+}
+.t-logo{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.child.search {
+  width: 54%;
+  height: 100%;
+  white-space: nowrap;
+  display: flex;
+}
+.t-search{
+  width: 80%;
+  font-size: 1.125rem;
+  padding: 50px;
+}
+.i-search {
+  width: 100%;
+  height: 100%;
+  font-size: 2em;  
+  background-color: var(--white);
+  cursor: pointer;
+  background-color: var(--white);
+}
+
+.child.icon {
+  min-width: 6%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i-icon:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.shop {
+  width: 100%;
+  display: flex;
+}
+.t-shop {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ************************** */
+.container-img{
+  width:100%;
+  height: 84vh;
+  background-image: url("https://www.esenzzia.com/modules/ps_imageslider/images/f84a8567c559b194fc58867a27b495da22b8a449_Post%20de%20Instagram%20rebajas%20ofertas%20descuentos%20femenino%20rosa%20(1947%C2%A0%C3%97%C2%A0876%C2%A0px)%20(1).png");
+  position: sticky;
+  top: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border: 3px solid var(--black);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.btn-big{
+  width: 350px;
+  height: 70px;
+  max-width: 350px;
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--white);
+  border: 2px solid white;
+  bottom: 75px;
+  left: 50px;
+  right: inherit;
+  text-transform: uppercase;
+  border: 3px solid var(--black); 
+  background-color: var(--black); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease;
+  z-index: 200;
+}
+
+.btn-big:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.btn-help{
+  width: 130px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--white);
+  margin: 10px;
+  margin-right: 30px;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 50px;
+  border: 2px solid var(--white);
+  z-index: 100;
+  transition: all .5s ease;
+}
+.i-help {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.btn-help:hover{    
+  color: var(--black);
+  background-color: var(--white);
+  border: 1.5px solid var(--black);
+}
+
+/* ************************** */
+.container-main{
+  width:100%;
+  border: 3px solid var(--black);
+  background-color: var(--white);
+  margin-top: calc(100vh - 580px);
+  display: flex;
+  flex-direction: column;
+}
+
+.phrase{
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.36;
+  margin: 10px 75px;
+  text-transform: uppercase;
+  margin-bottom: 0.9375rem;
+}
+
+.container-title-code { 
+  width: 100%;
+  height: 100%;
+  margin: 120px 0 100px 0;
+  display: flex;
+  padding: 0 90px 0 90px;
+}
+.title-main {
+  width: 50%;
+  height: 100%;
+  font-size: 85px;
+  line-height: 1.09;
+  margin-top: 60px;
+  padding-right: 50px;
+}
+.container-code {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-code {
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: right;
+  padding-right: 50px;
+  margin: 0;
+}
+.t-bold {
+  font-weight: 700;
+}
+
+.input-code {
+  height: auto;
+  font-size: 330px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 1.2;
+  color: var(--soft-grey);
+  margin-top: -30px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  overflow: visible;
+}
+/* Elimina barra de botones del button type="number" */
+/* ******* */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+/* ******* */
+
+.input-code::placeholder { 
+  color: var(--soft-gray); 
+}
+
+.container-link {
+  width: 100%;
+  height: 27vh;
+  padding-top: 50px;
+  border-top: 3px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.searchCode  {
+  max-width: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--black);
+  padding: 18px 0 18px 15px;
+  background-color: var(--white);
+  transition: all .5s ease;
+}
+.searchCode:hover {
+  color: #fff;
+  background-color: #000;
+  border: 3px solid #fff;
+}
+
+.link-catalogue {
+  max-width: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  color: var(--black);
+  margin: 25px 20px;
+  padding: 18px 0;
+}
+.link-catalogue:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* **************** */
+.container-mas-vendidos{
+  width: 100%;
+  height: 100%;
+  padding: 0 50px; 
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-arrows {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 0 25px;
+}
+
+.text-vendidos {
+  width: 95%;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.container-btn {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.btn-arrow {
+  height:25px;
+  width: 25px;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+  border: none;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+.btn-left {  
+  background-image: url(./img/left.svg);
+}
+.btn-right {
+  margin-left: 10px;
+  background-image: url(./img/right.svg);
+}
+
+.container-cards{
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{    
+  width: 22.2%;
+  height: 430px;
+  color: var(--white);
+  background-color: var(--black);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: display 0s, opacity 0.5s linear;
+}
+.card:hover .fragance-card {
+  display: none;
+  opacity: 0;
+}
+.container-essence {
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+.square {
+  width: 14px;
+  height: 14px;
+  background-color: #e54449;
+}
+.square2 {
+  width: 14px;
+  height: 14px;
+  background-color: #e93c77;
+}
+.t-essence {
+  margin-left: 10px;
+}
+.ten-off {
+  width: 50px;
+  height: 50px;
+  font-size: .8125rem;
+  border: 1px solid var(--white);
+  border-top: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.info-card {
+  padding: 0 30px 50px 30px;
+}
+.code-fragrance {
+  font-size: 9vw;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin-top: -18px;
+}
+.p-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.container-stars-opinions{
+  width: 100%;  
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.five-stars {
+  display: flex;
+  align-items: center;
+}
+.star {
+  font-size: 16px;
+  color: rgb(223, 152, 1);
+  letter-spacing: normal;
+}
+.opinions {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 5px;
+}
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0 10px;
+}
+.old-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+  text-decoration: line-through;
+}
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.fragance-card-hover {
+  width: 100%;
+  height: 100%;
+  
+  display: none;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  transition: display 0s, 
+  opacity 0.5s linear;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 100;
+}
+.card:hover .fragance-card-hover{
+  display: block;
+  opacity: 1;
+}
+.fragance-card-hover .img-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.img-747{
+  background-image: url("https://www.esenzzia.com/11527-home_default/perfume-hombre-FRANCIS-KURKDJIAN-BACCARAT-ROUGE-540-precio-imitacion.jpg");
+}
+.img-268{
+  background-image: url("https://www.esenzzia.com/11386-home_default/perfumes-AMOUAGE-BLOSSOM-LOVE-imitacion.jpg");
+}
+.img-223{
+  background-image: url("https://www.esenzzia.com/11367-home_default/perfumes-love-in-white-creed-precios-mujer-imitacion.jpg");
+}
+.img-265{
+  background-image: url("https://www.esenzzia.com/11382-home_default/perfumes-mancera-roses-vanille-mujer-colonia-imitacion.jpg");
+}
+.fragance-card-hover .btn-ver-perfume {
+  width: auto;
+  height: 20%;
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.link-vendidos {
+  font-size: 18px;
+  color: var(--black);
+  margin: 50px 0 65px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.link-vendidos a:hover {
+  text-decoration: underline;
+}
+
+/* ***************************** */
+footer{
+  height: 100vh;
+  width: 100%;  
+  background-color:var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 0;
+}
+.container-text-footer{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-footer {
+  width: 50%;
+  color: var(--white);
+}
+.title {
+  margin: 5px 0 5px 55px;
+}
+.name-social {
+  width: 50%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.name-footer {
+  margin: 5px 55px 5px 0;
+}
+.social {
+  margin-right: 37px;
+  display: flex;
+}
+.icon-social {
+  width: 20px;
+  height: auto;
+  margin-right: 18px;
+}
+.icon-social:hover {
+  opacity: .5;
+}
