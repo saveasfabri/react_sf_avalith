@@ -11,34 +11,21 @@ main {
     margin-top: 50px;
 
     .methods {
-      margin-top: 20px;
+      margin-top: 20px;      
       .title-methods {
         font-size: 1.3em;
       }
       .text-change {
         font-size: .8em;
         color: $red;
-        margin-bottom: 15px;
+      }
+      .text-method {
+        margin-top: 20px;
       }
       .imgCode-methods {
-        width: 40%;
+        width: 600px;
+        height: auto;
       }
-    }
-  }
-
-  .img-container {
-    margin-left: -2vw;
-    margin-top: 30px;
-
-    .text-img {
-      font-size: .8em;
-      font-style: italic;
-      color: $red-soft;      
-      margin-left: 2vw;
-    }
-    img {
-      width: 40%;
-      margin-left: 2vw;
     }
   }
 }

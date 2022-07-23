@@ -28,6 +28,7 @@ nav {
 }
 nav .logo {
   font-size: 3em;
+  text-align: center;
   color: #ff192d;
   background-color: #1a1a1a;
 }
@@ -54,10 +55,10 @@ nav .logo {
   color: #ff192d;
 }
 
-.line-separation {
-  width: 600px;
+.line {
+  width: 60%;
   height: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   border-bottom: 0.5px solid #d6daa9;
 }
 
@@ -70,6 +71,7 @@ nav .logo {
 .topics-container .ul-topics {
   margin-top: 10px;
   list-style-position: inside;
+  color: rgba(75, 77, 87, 0.9450980392);
 }
 .topics-container .ul-topics li {
   font-size: 1em;
@@ -118,22 +120,11 @@ main .container-methods .methods .title-methods {
 main .container-methods .methods .text-change {
   font-size: 0.8em;
   color: #ff192d;
-  margin-bottom: 15px;
+}
+main .container-methods .methods .text-method {
+  margin-top: 20px;
 }
 main .container-methods .methods .imgCode-methods {
-  width: 40%;
-}
-main .img-container {
-  margin-left: -2vw;
-  margin-top: 30px;
-}
-main .img-container .text-img {
-  font-size: 0.8em;
-  font-style: italic;
-  color: rgba(255, 25, 44, 0.5764705882);
-  margin-left: 2vw;
-}
-main .img-container img {
-  width: 40%;
-  margin-left: 2vw;
+  width: 600px;
+  height: auto;
 }/*# sourceMappingURL=index.css.map */

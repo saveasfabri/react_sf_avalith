@@ -28,6 +28,7 @@ nav {
 
   .logo {
     font-size: 3em;
+    text-align: center;
     color: $red;
     background-color: #1a1a1a;
   }
@@ -60,10 +61,10 @@ nav {
   }  
 }
 
-.line-separation {
-  width: 600px;
+.line {
+  width: 60%;
   height: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   border-bottom: .5px solid $white-soft;
 }
 
@@ -75,6 +76,7 @@ nav {
   .ul-topics {
     margin-top: 10px;
     list-style-position: inside;
+    color: #4b4d57f1;
 
     li {
       font-size: 1em;
