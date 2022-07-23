@@ -1,0 +1,44 @@
+@import '../../a_general_scss/_variables';
+@import '../../a_general_scss/_general';
+
+
+//nav -  configurado en ./css/_generales
+
+main {
+  padding: 0 5vw;
+
+  .container-methods {
+    margin-top: 50px;
+
+    .methods {
+      margin-top: 20px;
+      .title-methods {
+        font-size: 1.3em;
+      }
+      .text-change {
+        font-size: .8em;
+        color: $red;
+        margin-bottom: 15px;
+      }
+      .imgCode-methods {
+        width: 40%;
+      }
+    }
+  }
+
+  .img-container {
+    margin-left: -2vw;
+    margin-top: 30px;
+
+    .text-img {
+      font-size: .8em;
+      font-style: italic;
+      color: $red-soft;      
+      margin-left: 2vw;
+    }
+    img {
+      width: 40%;
+      margin-left: 2vw;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@import '../a_general_scss/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $white-soft;
+  font-weight: 400;
+  font-family: $montserrat;
+  background-color: #161616;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+p {
+  font-size: 1em;
+}
+
+nav {
+  margin: 5vw 50px;
+  padding: 15px 0;
+  border: 2px solid $white-soft;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    font-size: 3em;
+    color: $red;
+    background-color: #1a1a1a;
+  }
+}
+
+.container-img-title {
+  display: flex;
+  border-bottom: 2px solid $red;  
+
+  .img-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .title-container {
+    padding-bottom: 20px;
+    margin-left: 20px;
+  
+    .sub-title-clase6 {
+  
+      .link-youtube {
+        font-size: .8em;
+        font-style: italic;
+        color: $red-soft;
+        border-bottom: 1px solid $red-soft;
+        &:hover {
+          color: $red;
+        }
+      }
+    }  
+  }  
+}
+
+.line-separation {
+  width: 600px;
+  height: 10px;
+  margin-top: 15px;
+  border-bottom: .5px solid $white-soft;
+}
+
+.topics-container {
+  margin-top: 25px;
+  .title-topics {
+    font-size: 1.4em;
+  }
+  .ul-topics {
+    margin-top: 10px;
+    list-style-position: inside;
+
+    li {
+      font-size: 1em;
+      margin-top: 5px;
+      color: $red;
+      span {
+        color: $white-soft;
+      }
+      .link-method {
+        width: 60%;
+        color: $white-soft;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        a {
+          width: 100%;
+          height: 100%;
+          color: $red;
+          padding: 7px 20px;
+          margin-right: 10px;
+          border: 2px solid $white-soft;
+          background-color: #1a1a1a;
+          text-align: center;
+          &:hover {
+            color: $white-soft;
+            border: 2px solid $red;
+            box-shadow: 1px 1px 5px $red-soft;
+          }          
+        }
+      }
+    }
+  }
+}
