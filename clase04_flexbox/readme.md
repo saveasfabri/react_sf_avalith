@@ -34,7 +34,7 @@ Esenzzia es tienda online que vende perfumes de equivalencia o de imitación ins
 __Repositorio :__
 [github.com/saveasfabri/curso_react_sf/tree/layout-web](https://github.com/saveasfabri/curso_react_sf/tree/layout-web)
 
-Puede clonar su repositorio en git escribiendo en su terminal:  
+Puede clonar este repositorio escribiendo en su terminal:   
 
 >`git clone -b layout-web --single-branch https://github.com/saveasfabri/curso_react_sf`
 
