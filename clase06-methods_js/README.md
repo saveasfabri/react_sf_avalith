@@ -96,7 +96,7 @@
     <h4 id="length">.length( )</h4>
     <p>La length( ) propiedad devuelve la longitud de una cadena.</p>
     <p>La length/ ) propiedad de una cadena vacía es 0.</p>
-    <img width="60%" src="./img/codeLength.png" alt="Imagen de código">          
+    <img id="zc" width="60%" src="./img/codeLength.png" alt="Imagen de código">          
   </div>
   
   <div>
@@ -109,10 +109,6 @@
   </div>
 </section>
 
-
+------
 __Repositorio :__
 [github.com/saveasfabri/react_sf_avalith/tree/main/clase06-methods_js](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase06-methods_js)
-
-Puede clonar este repositorio escribiendo en su terminal:  
-
->`git clone -b schema-flexbox --single-branch https://github.com/saveasfabri/react_sf_avalith/tree/main/clase06-methods_js`  

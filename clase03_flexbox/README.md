@@ -1,7 +1,7 @@
 #SKIL FACTORY - AVALITH
 ------------------------------
-## :book:Clase 4 - 15-07
-[https://www.youtube.com/watch?v=7WMTkra6xKg&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=4](https://www.youtube.com/watch?v=7WMTkra6xKg&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=4)
+## :book:Clase 3 - 11-07
+[youtube.com/watch?v=7WMTkra6xKg&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=4](https://www.youtube.com/watch?v=PWJwKAQleA8&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=3)
 
 ### Esquema de maquetado - Flexbox  
 
@@ -34,7 +34,4 @@ Esenzzia es tienda online que vende perfumes de equivalencia o de imitación ins
 __Repositorio :__
 [github.com/saveasfabri/curso_react_sf/tree/layout-web](https://github.com/saveasfabri/curso_react_sf/tree/layout-web)
 
-Puede clonar este repositorio escribiendo en su terminal:   
-
->`git clone -b layout-web --single-branch https://github.com/saveasfabri/curso_react_sf`
 
