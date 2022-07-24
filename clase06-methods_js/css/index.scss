@@ -1,11 +1,10 @@
-@import '../../a_general_scss/_variables';
-@import '../../a_general_scss/_general';
+@import '../a_general_scss/variables';
+@import '../a_general_scss/general';
 
 
 //nav -  configurado en ./css/_generales
 
 main {
-  padding: 0 5vw;
 
   .container-methods {
     margin-top: 50px;

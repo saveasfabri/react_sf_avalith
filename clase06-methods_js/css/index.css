@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 5vw;
+}
+
 a {
   text-decoration: none;
   list-style: none;
@@ -18,8 +22,8 @@ p {
 }
 
 nav {
-  margin: 5vw 50px;
   padding: 15px 0;
+  margin-top: 50px;
   border: 2px solid #d6daa9;
   background-color: #1a1a1a;
   display: flex;
@@ -34,6 +38,7 @@ nav .logo {
 }
 
 .container-img-title {
+  margin-top: 50px;
   display: flex;
   border-bottom: 2px solid #ff192d;
 }
@@ -45,13 +50,13 @@ nav .logo {
   padding-bottom: 20px;
   margin-left: 20px;
 }
-.container-img-title .title-container .sub-title-clase6 .link-youtube {
+.container-img-title .title-container .sub-title-clase .link-youtube {
   font-size: 0.8em;
   font-style: italic;
   color: rgba(255, 25, 44, 0.5764705882);
   border-bottom: 1px solid rgba(255, 25, 44, 0.5764705882);
 }
-.container-img-title .title-container .sub-title-clase6 .link-youtube:hover {
+.container-img-title .title-container .sub-title-clase .link-youtube:hover {
   color: #ff192d;
 }
 
@@ -105,9 +110,6 @@ nav .logo {
   box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
 }
 
-main {
-  padding: 0 5vw;
-}
 main .container-methods {
   margin-top: 50px;
 }

@@ -1,4 +1,4 @@
-@import '../a_general_scss/variables';
+@import './variables';
 
 * {
   margin: 0;
@@ -9,6 +9,9 @@
   background-color: #161616;
   box-sizing: border-box;
 }
+body {
+  margin: 0 5vw;
+}
 a {
   text-decoration: none;
   list-style: none;
@@ -17,9 +20,9 @@ p {
   font-size: 1em;
 }
 
-nav {
-  margin: 5vw 50px;
+nav {  
   padding: 15px 0;
+  margin-top: 50px;
   border: 2px solid $white-soft;
   background-color: #1a1a1a;
   display: flex;
@@ -35,6 +38,7 @@ nav {
 }
 
 .container-img-title {
+  margin-top: 50px;
   display: flex;
   border-bottom: 2px solid $red;  
 
@@ -46,7 +50,7 @@ nav {
     padding-bottom: 20px;
     margin-left: 20px;
   
-    .sub-title-clase6 {
+    .sub-title-clase {
   
       .link-youtube {
         font-size: .8em;
