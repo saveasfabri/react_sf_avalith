@@ -19,7 +19,7 @@
   <a href="#reverse">reverse( )</a>
   <a href="#join">join( )</a>
   <a href="#concat">concat( )</a>
-  <a href="#length">length( )</a>
+  <a href="#length">length</a>
   <a href="#sort">sort( )</a>
 </div>
 
@@ -93,9 +93,9 @@
   </div>
   
   <div>
-    <h4 id="length">.length( )</h4>
-    <p>La length( ) propiedad devuelve la longitud de una cadena.</p>
-    <p>La length/ ) propiedad de una cadena vacía es 0.</p>
+    <h4 id="length">.length</h4>
+    <p>La length propiedad devuelve la longitud de una cadena.</p>
+    <p>La length propiedad de una cadena vacía es 0.</p>
     <img id="zc" width="60%" src="./img/codeLength.png" alt="Imagen de código">          
   </div>
   
