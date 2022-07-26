@@ -301,20 +301,23 @@ que los compare y que me indique cuál es mayor y si es un tipo
 de datos no válido, que lo indique por console/alert.
 */
 
-let num1 = parseInt(prompt("Ingrese el primer número"));
-let num2 = parseInt(prompt("Ingrese el segundo número"));
+// ¡¡¡Descomentar las liíeas 305 y 306 para que funcione el ejercicio!!!
+
+//let num1 = parseInt(prompt('Ingrese el primer número'));
+//let num2 = parseInt(prompt('Ingrese el segundo número'));
 
 function prueba (num1,num2){
   if (!isNaN(num1) && !isNaN(num2)){
     if (num1 > num2){
-      console.log(`El primero(${num1}) es mayor al segundo(${num2})`)
+      console.log(`El primero(${num1}) es mayor al segundo(${num2})`);
     }else if (num1 < num2){
-      console.log(`El primero(${num1}) es menor al segundo(${num2})`)
+      console.log(`El primero(${num1}) es menor al segundo(${num2})`);
     }else {
-      console.log(`El primero(${num1}) es igual al segundo(${num2})`)
+      console.log(`El primero(${num1}) es igual al segundo(${num2})`);
     }
   }else {
-    console.error("Datos incorrectos. Debe ingresar números...");
+    console.error('Datos incorrectos. Debe ingresar números...');
+    alert('Datos incorrectos. Debe ingresar números...')
   }
 }
 
@@ -322,9 +325,11 @@ console.log(`El primer numero ingresado es: ${num1}`);
 console.log(`El segundo numero ingresado es: ${num2}`);
 console.log(prueba(num1,num2)); 
 
+
+
 /* **************************************** */
 
-console.log('*** Ejercicios con métodos ***')
+console.log('*** Ejercicios con métodos ***');
 
 /*Para realizar ejercicios descomentar
 const = data desde linea 99 a la 261 */

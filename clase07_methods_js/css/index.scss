@@ -5,26 +5,16 @@
 //nav -  configurado en ./css/_generales
 
 main {
-
-  .container-methods {
-    margin-top: 50px;
-
-    .methods {
-      margin-top: 20px;      
-      .title-methods {
-        font-size: 1.3em;
-      }
-      .text-change {
-        font-size: .8em;
-        color: $red;
-      }
-      .text-method {
-        margin-top: 20px;
-      }
-      .imgCode-methods {
-        width: 600px;
-        height: auto;
-      }
-    }
+  width: 70%;
+  
+  .text-img {
+    font-size: .8em;
+    font-style: italic;
+    color: $red-soft;
+    margin-top: 30px;
+    margin-left: 2vw;
+  }
+  .img-code {
+    width: 80%;
   }
 }

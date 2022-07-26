@@ -110,23 +110,16 @@ nav .logo {
   box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
 }
 
-main .container-methods {
-  margin-top: 50px;
+main {
+  width: 70%;
 }
-main .container-methods .methods {
-  margin-top: 20px;
-}
-main .container-methods .methods .title-methods {
-  font-size: 1.3em;
-}
-main .container-methods .methods .text-change {
+main .text-img {
   font-size: 0.8em;
-  color: #ff192d;
+  font-style: italic;
+  color: rgba(255, 25, 44, 0.5764705882);
+  margin-top: 30px;
+  margin-left: 2vw;
 }
-main .container-methods .methods .text-method {
-  margin-top: 20px;
-}
-main .container-methods .methods .imgCode-methods {
-  width: 600px;
-  height: auto;
+main .img-code {
+  width: 80%;
 }/*# sourceMappingURL=index.css.map */
