@@ -1,8 +1,9 @@
-@import '../a_general_scss/variables';
-@import '../a_general_scss/general';
+@import '../../a_general_scss/general';
+@import '../../a_general_scss/general';
 
 
 //configurado en ./css/_generales.scss
+
 
 .img-container {
   margin-left: -2vw;
@@ -15,6 +16,7 @@
     margin-left: 2vw;
   }
   img {
-    width: 40%;
+    width: 60%;
   }
 }
+  
