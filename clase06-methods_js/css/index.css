@@ -119,6 +119,13 @@ main .topics-container .ul-topics li .link-method a:hover {
   border: 2px solid #ff192d;
   box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
 }
+main .topics-container .ul-topics li .text-img {
+  font-size: 0.8em;
+  font-style: italic;
+  color: rgba(255, 25, 44, 0.5764705882);
+  margin-top: 30px;
+  margin-left: 2vw;
+}
 
 nav {
   margin-top: 50px;

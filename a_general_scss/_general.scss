@@ -127,6 +127,13 @@ main {
             }          
           }
         }
+        .text-img {
+          font-size: .8em;
+          font-style: italic;
+          color: $red-soft;
+          margin-top: 30px;
+          margin-left: 2vw;
+        }
       }
     }
   }
@@ -177,4 +184,3 @@ footer {
   grid-area: footer;
 }
 
-span{ color: #91ff00, #d40101}

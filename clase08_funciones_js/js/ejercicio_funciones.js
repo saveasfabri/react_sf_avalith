@@ -1,24 +1,73 @@
-// Práctica Declaración de variables, arrays y objetos Clase 5 - Lunes 20/07
+const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
 
-const myName = "Fabricio"; 
-const myAge = 43;
-const inRelationship = false;
-const arrayNumbers = [1,2,3,4,5,6,7,8,9,10];
-const skillersNames = ["Gonzalo","Facundo","Matías","Sofía", "Maria"];
-const skillersTeam = {
-  name:"Fabricio",
-  age: 43,
-  inRelationship: true,
-  arrayNumbers: [1,2,3,4,5,6,7,8,9,10],
-  skillersNames: ["Gonzalo","Facundo","Matías","Sofía", "Maria"],
+function sum(a, b) {
+  console.log("Suma de a + b", a + b);
 }
+sum(c, d); // Devuelve 3
 
-console.log(myName);
-console.log(myAge);
-console.log(inRelationship);
-console.log(arrayNumbers);
-console.log(skillersNames);
-console.log(skillersTeam); 
+const sumWithArrowFunction = (a, b) => {
+  return a + b;
+};
+console.log("Suma con arrow function", sumWithArrowFunction(a, b));
 
-/* ****************************************************************** */
+const sumImplicit = (c, d) => c + d;
 
+console.log("Suma implicita", sumImplicit(c, d));
+
+/* ************************************************************* */
+
+// Array con objetos de ejemplo
+
+const users = [
+  {
+    userName: "Fabi",
+    userLastName: "Tureo",
+  },
+  {
+    userName: "Melina",
+    userLastName: "Lencinas",
+  },
+  {
+    userName: "Guillermo",
+    userLastName: "Scharf",
+  },
+  {
+    userName: "Emi",
+    userLastName: "Salias",
+  },
+];
+
+/* Con un for */
+const usersNames = [];
+
+for (let i = 0; i < users.length; i++) {
+  usersNames.push(users[i].userName);
+}
+console.log("Array de Nombres con for", usersNames);
+// Devuelve: Array de Nombres con for
+// [ 'Fabi', 'Melina', 'Guillermo', 'Emi' ] 
+
+
+/* Con un map */
+const usersNamesMap = users.map((user) => {
+  return user.userName;
+});
+console.log("Username con map", usersNamesMap);
+//Devuelve: Username con map 
+//[ 'Fabi', 'Melina', 'Guillermo', 'Emi' ] 
+
+/* ********** */
+const usersNamesMapImplicit = users.map((user) => user.userName);
+console.log("Implicit", usersNamesMapImplicit);
+
+//Otro ejemplo con map devuelve array con nombre y apellido del objeto
+const usersLastNames = users.map(
+  (user) => `${user.userName} ${user.userLastName}`
+  );
+console.log("Users", usersLastNames);
+//Devuelve:Users ['Fabi Tureo', 'Melina Lencinas', 'Guillermo Scharf', 'Emi Salias'];
+
+/* ************************************************** */

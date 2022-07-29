@@ -1,22 +1,13 @@
 @import '../../a_general_scss/general';
-@import '../../a_general_scss/general';
+@import '../../a_general_scss/variables';
 
 
 //configurado en ./css/_generales.scss
 
 
-.img-container {
-  margin-left: -2vw;
-
-  .text-img {
-    font-size: .8em;
-    font-style: italic;
-    color: $red-soft;
-    margin-top: 30px;
-    margin-left: 2vw;
-  }
-  img {
-    width: 60%;
-  }
+.fx-img-code {
+  width: 80%;
 }
-  
+.map-img-code {
+  width: 100%;
+}

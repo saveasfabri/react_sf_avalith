@@ -28,7 +28,7 @@
     <h4 id="pop">.pop( )</h4>
     <p>Cambia la matriz original </p>
     <p>El pop( ) método elimina (abre) el último elemento de una matriz.</p>
-    <img width="60%" width="60%" src="./img/codePop.png" alt="Imagen de código">
+    <img width="60%" src="./img/codePop.png" alt="Imagen de código">
     <p>El pop( ) devuelve el elemnto eliminado.</p>
     <img width="60%" src="./img/codePop2.png" alt="Imagen de código">
   </div>
