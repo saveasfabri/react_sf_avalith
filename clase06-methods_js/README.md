@@ -9,18 +9,18 @@
 - Investigacion de métodos
 
 <div class="link-method" >
-  <a href="#pop">pop( )</a>
-  <a href="#shift">shift( )</a>
-  <a href="#push">push( )</a>
-  <a href="#slice">slice( )</a>
-  <a href="#unshift">unshift( )</a>
+  <a href="#pop">. pop( )</a>
+  <a href="#shift">. shift( ) </a>
+  <a href="#push">. push( )</a>
+  <a href="#slice">. slice( )</a>
+  <a href="#unshift">. unshift( )</a>
 </div>
 <div class="link-method">
-  <a href="#reverse">reverse( )</a>
-  <a href="#join">join( )</a>
-  <a href="#concat">concat( )</a>
-  <a href="#length">length</a>
-  <a href="#sort">sort( )</a>
+  <a href="#reverse">. reverse( )</a>
+  <a href="#join">. join( )</a>
+  <a href="#concat">. concat( )</a>
+  <a href="#length">. length</a>
+  <a href="#sort">. sort( )</a>
 </div>
 
 <section>

@@ -186,23 +186,10 @@ footer {
   grid-area: footer;
 }
 
-.container-methods {
-  margin-top: 50px;
+.fx-img-code {
+  width: 80%;
 }
-.container-methods .methods {
-  margin-top: 20px;
-}
-.container-methods .methods .title-methods {
-  font-size: 1.3em;
-}
-.container-methods .methods .text-change {
-  font-size: 0.8em;
-  color: rgba(255, 25, 44, 0.5764705882);
-}
-.container-methods .methods .text-method {
-  margin-top: 20px;
-}
-.container-methods .methods .imgCode-methods {
-  width: 600px;
-  height: auto;
+
+.map-img-code {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

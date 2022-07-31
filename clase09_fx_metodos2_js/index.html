@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="../a_img_general/logo_sf.svg">
+  <title>Clase 9 | Funciones y Métodos 2 JS</title>
+</head>
+
+<body>
+  <header>
+    <div class="title-sf">
+      <p class="skill">SKILL FACTORY - REACT</p>
+    </div>
+  </header>
+  <main>
+    <section class="container-img-title">
+      <img class="img-logo" src="../a_img_general/logo_js.png" alt="Imágen de JavaScript"/>
+      <div class="title-container">
+        <h1>Funciones y Métodos 2 JS</h1>
+        <h2 class="sub-title-clase">
+          Clase 9 - 29/07 - 
+          <a class="link-youtube" href="https://www.youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9" target="_blank">
+            Link clase 9 - YouTube
+          </a>
+        </h2>
+      </div>
+    </section>
+    <!-- ********************************************************************************************** -->
+    <section class="topics-container">
+      <h3 class="title-topics">Filter, find, destrocturing an spread operator</h3>
+      <ul class="ul-topics">
+        <li class="boton-container">
+          <div class="link-boton">
+            <a href="#filter">filter( )</a>
+            <a href="#find">find( )</a>
+            <a href="#dest">Destructuring</a>
+            <a href="#spread">Spread Operator</a>
+          </div>     
+        </li>
+      </ul> 
+      
+      <div class="line"></div>
+
+      <h3 class="title-topics" id="filter">Método Filter</h3>
+      <ul class="ul-topics">
+        <li>
+          <span><a href="https://www.w3schools.com/jsref/jsref_filter.asp" class="link-definition" target="_blank">Filter</a> nos permite iterar por cada elemento de un determinado array y nos devolerá otro array con la información que se corresponda con la condición que le indiquemos en el <a href="https://www.w3schools.com/js/js_callback.asp" class="link-definition" target="_blank">callback</a> de la función.</span>
+
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="fx-img-code" src="./img/codeFilter2Iguales.png" alt="Imágen de código">          
+          <img class="fx-img-code" src="./img/codeFilter3Iguales.png" alt="Imágen de código">          
+          <img class="fx-img-code" src="./img/codeFilterDistinto2Iguales.png" alt="Imágen de código">          
+        </li>
+        <li>
+          <span>Filter en Acción</span>
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="fx-img-code special" src="./img/codeArrayConObjetos.png" alt="Imágen de código">
+          <img class="fx-img-code" src="./img/codeFilterMenor3.png" alt="Imágen de código">
+          <img class="fx-img-code" src="./img/codeFilterGuille.png" alt="Imágen de código">
+          <img class="fx-img-code" src="./img/codeFilterToLoweCase.png" alt="Imágen de código">
+        </li>        
+      </ul>
+      
+      <div class="line"></div>
+
+      <h3 class="title-topics">Método Map y Filter</h3>
+      <ul class="ul-topics">
+        <li>
+          <span>Un problema recurrente cuando solicitamos o nos llega la información desde una API y el caudal de información grande, la performance puede verse afectada por el alto costo de métodos en conjunto (si, se puede) para poder crear un algoritmo de mejor rendimiento.</span>
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="map-img-code special" src="./img/codeArrayMapFilter.png" alt="Imágen de código">          
+          <img class="map-img-code" src="./img/codeMapFilter.png" alt="Imágen de código">          
+        </li>
+      </ul>
+      
+      <div class="line"></div>
+
+      <h3 class="title-topics" id="find">Método Find</h3>
+      <ul class="ul-topics">
+        <li>
+          <span><a href="https://www.w3schools.com/jsref/jsref_find.asp" class="link-definition" target="_blank">Find</a> similar a lo que hace Filter y Map, recorre un array dado y devuelve la primera coincidencia respecto a una condición dada. A partir de ese momento deja de recorrer el array.</span>
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="map-img-code special" src="./img/codeArrayFind.png" alt="Imágen de código">
+          <img class="map-img-code" src="./img/codeFind.png" alt="Imágen de código">
+        </li>
+      </ul>
+      
+      <div class="line"></div>
+
+      <h3 class="title-topics" id="dest">Destructuring</h3>
+      <ul class="ul-topics">
+        <li>
+          <span><a href="https://www.w3schools.com/react/react_es6_destructuring.asp" class="link-definition" target="_blank">Destructuring</a> (Desestructuración) es una expresión de JavaScript que nos permite extraer datos de matrices, objetos y mapas y establecerlos en variables nuevas y distintas. La desestructuración nos permite extraer múltiples propiedades, o elementos, de una matriz a la vez.</span>
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="map-img-code" src="./img/codeOldDestroct.png" alt="Imágen de código">
+          <img class="map-img-code special" src="./img/codeObjetDestruct.png" alt="Imágen de código">
+          <img class="map-img-code" src="./img/codeOtherDestruct.png" alt="Imágen de código">
+        </li>
+      </ul>
+      
+      <div class="line"></div>
+
+      <h3 class="title-topics" id="spread">Spread Operator</h3>
+      <ul class="ul-topics">
+        <li>
+          <span><a href="https://www.w3schools.com/react/react_es6_spread.asp" class="link-definition" target="_blank">Spread Operator</a> (Operador de propagación) es una nueva adición al conjunto de operadores en JavaScript ECMAScript 6. Toma un iterable (por ejemplo, una matriz) y lo expande en elementos individuales.
+          Spread Operator se usa comúnmente para hacer copias superficiales de objetos JS. El uso de este operador hace que el código sea conciso y mejora su legibilidad.</span>
+          <p class="text-img"> * Ver código funcional en archivo ejercicio-funciones2.js</p>
+          <img class="map-img-code" src="./img/codeSpreadConcat.png" alt="Imágen de código">
+          <img class="map-img-code" src="./img/codeSpreadOperator.png" alt="Imágen de código">
+        </li>
+      </ul>
+    </section>
+
+  </main>
+  <!-- ******************** Menú lateral ******************** -->
+  <nav>
+    <div class="nav-menu-container">
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo-git.png" alt="">
+        <a class="nav-link" href="../clase04_git_github/index.html">
+          Clase <span>04</span> - git y github
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
+        <a class="nav-link" href="../clase05_intro_js/index.html">
+          Clase <span>05</span> - Intro JS
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
+        <a class="nav-link" href="../clase06-methods_js/index.html">
+          Clase <span>06</span> - Métodos JS
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
+        <a class="nav-link" href="../clase07_methods_js/index.html">
+          Clase <span>07</span> - Ejercicio grupal JS
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
+        <a class="nav-link" href="../clase08_fx_metodos_js/index.html">
+          Clase <span>08</span> - Funciones y Métodos en JS
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
+        <a class="nav-link select" href="#">
+          Clase <span>09</span> - Funciones y Métodos 2 JS
+        </a>
+      </div>
+      <div class="nav-img-link">
+        <img class="nav-img" src="../a_img_general/logo_react.png" alt="Logo JavaScript">
+        <a class="nav-link" href="#">Clase <span>10</span> - </a>
+      </div>
+      
+    </div>
+  </nav>
+  <footer>
+
+  </footer>
+  <script src="./js/ejercicio_funciones2.js"></script>
+</body>
+</html>
