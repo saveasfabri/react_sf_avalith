@@ -25,7 +25,7 @@
 
 <section>
   <div>
-    <h4 id="pop">.pop( )</h4>
+    <h5 id="pop">.pop( )</h5>
     <p>Cambia la matriz original </p>
     <p>El pop( ) método elimina (abre) el último elemento de una matriz.</p>
     <img width="60%" src="./img/codePop.png" alt="Imagen de código">
@@ -34,7 +34,7 @@
   </div>
   
   <div>
-    <h4 id="shift">.shift( )</h4>
+    <h5 id="shift">.shift( )</h5>
     <p>Cambia la matriz original</p>
     <p>El shift( ) método elimina el primer elemento de una matriz.</p>
     <img width="60%" src="./img/codeShift.png" alt="Imagen de código">
@@ -43,7 +43,7 @@
   </div>
   
   <div>
-    <h4 id="push">.push( )</h4>
+    <h5 id="push">.push( )</h5>
     <p>Cambia la longitud de la matriz.</p>
     <p>El push( ) método agrega nuevos elementos al final de una matriz.</p>
     <img width="60%" src="./img/codePush.png" alt="Imagen de código">
@@ -52,7 +52,7 @@
   </div>
   
   <div>
-    <h4 id="slice">.slice( )</h4>
+    <h5 id="slice">.slice( )</h5>
     <p>No cambia la matriz original.</p>
     <p>El slice( )  método devuelve los elementos seleccionados en una matriz, como una nueva matriz.</p>
     <img width="60%" src="./img/codeSlice.png" alt="Imagen de código">
@@ -61,21 +61,21 @@
   </div>}
   
   <div>
-    <h4 id="unshift">.unshift( )</h4>
+    <h5 id="unshift">.unshift( )</h5>
     <p>Sobrescribe la matriz original.</p>
     <p>El unshift( ) método agrega nuevos elementos al comienzo de una matriz.</p>
     <img width="60%" src="./img/codeUnshift.png" alt="Imagen de código">
   </div>
   
   <div>
-    <h4 id="reverse">.reverse( )</h4>
+    <h5 id="reverse">.reverse( )</h5>
     <p>Sobrescribe la matriz original.</p>
     <p>El reverse( ) método invierte el orden de los elementos en una matriz.</p>
     <img width="60%" src="./img/codeReverse.png" alt="Imagen de código">
   </div>
   
   <div>
-    <h4 id="join">.join( )</h4>
+    <h5 id="join">.join( )</h5>
     <p>No cambia la matriz original.</p>
     <p>El join( ) método devuelve una matriz como una cadena.</p>
     <img width="60%" src="./img/codeJoin.png" alt="Imagen de código">
@@ -84,7 +84,7 @@
   </div>
   
   <div>
-    <h4 id="concat">.concat( )</h4>
+    <h5 id="concat">.concat( )</h5>
     <p>No cambia las matrices existentes.</p>
     <p>El join( ) método devuelve una matriz como una cadena.</p>
     <img width="60%" src="./img/codeConcat.png" alt="Imagen de código">
@@ -93,14 +93,14 @@
   </div>
   
   <div>
-    <h4 id="length">.length</h4>
+    <h5 id="length">.length</h5>
     <p>La length propiedad devuelve la longitud de una cadena.</p>
     <p>La length propiedad de una cadena vacía es 0.</p>
     <img id="zc" width="60%" src="./img/codeLength.png" alt="Imagen de código">          
   </div>
   
   <div>
-    <h4 id="sort">.sort( )</h4>
+    <h5 id="sort">.sort( )</h5>
     <p>Sobrescribe la matriz original.</p>
     <p>El sort( ) ordena los elementos de una matriz.</p>
     <img width="60%" src="./img/codeSort.png" alt="Imagen de código">

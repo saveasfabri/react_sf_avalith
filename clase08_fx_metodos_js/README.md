@@ -6,7 +6,7 @@
 ### Funciones y Métodos JavaScript
 
 <section>
-  <h3>Funciones JS</h3>
+  <h5>Funciones JS</h5>
   <ul>
     <li>
       <span>Es un conjunto de instrucciones agrupadas. Tienen una finalidad en particular y permiten la reutilización.</span>
@@ -25,7 +25,7 @@
     </li>        
   </ul> 
 
-  <h3>Método map</h3>
+  <h5>Método map</h5>
   <ul>
     <li>
       <span>El método map nos permite iterar por cada elemento de un determinado array y nos devolverá otro array luego de haber procesado las instrucciones que le pedimos.
