@@ -271,15 +271,21 @@ console.log("User last name: ", userLastName);
 function getUser(user) {
   return `${user.userName} ${user.userLastName}`;
 };
+console.log(getUser(userGuille));
+//Devuelve: Guillermo Scharf
 
 function getUserDestructuring2(user) {
   const { userName, userLastName } = user;
   return `${userName} ${userLastName}`;
 };
+console.log(getUserDestructuring2(userGuille));
+//Devuelve: Guillermo Scharf
 
 function getUserDestructuring( { userName, userLastName} ) {
   return `${userName} ${userLastName}`;
 };
+console.log(getUserDestructuring(userGuille));
+//Devuelve: Guillermo Scharf
 
 /* ******************* */
 
