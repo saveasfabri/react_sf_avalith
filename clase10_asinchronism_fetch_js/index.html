@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="icon" href="../a_img_general/logo_sf.svg">
-  <title>Clase 5 | Intro JS</title>
+  <title>Clase 10 | Fetch JS</title>
 </head>
 
 <body>
@@ -17,48 +17,54 @@
     </div>
   </header>
   <main>
-    <section class="container-img-title">        
-      <img class="img-logo" src="../a_img_general/logo_js.png" alt="Imágen de Logo de JavaScript"/>
+    <section class="container-img-title">
+      <img class="img-logo" src="../a_img_general/logo_js.png" alt="Imágen de JavaScript"/>
       <div class="title-container">
-        <h1>Introdución a JavaScript</h1>
+        <h1>Intro Asincronismo - Fetch JS</h1>
         <h2 class="sub-title-clase">
-          Clase 5 - 18/07 - 
-          <a class="link-youtube" href="https://www.youtube.com/watch?v=hrmUlHgMbKE&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=5" target="_blank">
-            Link clase 5 - YouTube
+          Clase 10 - 01/08 - 
+          <a class="link-youtube" href="https://www.youtube.com/watch?v=VDsP2C55g0s&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=10" target="_blank">
+            Link clase 10 - YouTube
           </a>
         </h2>
       </div>
     </section>
-
+    <!-- ************************************************************************************ -->
     <section class="topics-container">
-      <h3 class="title-topics">
-        Ejercicio 1
-      </h3>
+      <h3 class="title-topics" id="filter">Fetch</h3>
       <ul class="ul-topics">
-        <li><span>Creación de variables</span></li>
-        <li><span>Creación de variable que contiene un array</span></li>
-        <li><span>Creación de variable que contiene un objeto</span></li>
-        <li><span>Imprimir variables en Consola</span></li>
+        <li>
+          <span><a href="https://www.w3schools.com/jsref/api_fetch.asp" class="link-definition" target="_blank">Fetch</a> ofrece una definición genérica de los objetos <a href="https://developer.mozilla.org/es/docs/Web/API/Request" class="link-definition" target="_blank">Request</a> y <a href="https://developer.mozilla.org/es/docs/Web/API/Response" class="link-definition" target="_blank">Response</a> ( y otras cosas relacionadas con las solicitudes de red ). Esto permitirá su uso donde sea necesario en un futuro, ya sea para operadores de servicios, API caché y otras cosas similares que manipulen o modifiquen las solicitudes y respuestas, o cualquier otro tipo de caso de uso que pudiera requerirle la generación de sus propias respuestas mediante programación.</span>
+
+          <p class="text-img"> * Ver código funcional en archivo ./js/fetch.js</p>
+
+          <img class="fx-img-code" src="./img/codeFetch_700.png" alt="Imágen de código">         
+        </li>     
+      </ul>
+      <ul class="ul-topics">
+        <li>
+          <span>Aqui abajo se muestra el <a href="https://www.w3schools.com/js/js_htmldom.asp" class="link-definition" target="_blank">DOM</a> real, impreso con <a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp" class="link-definition" target="_blank">innertHTML</a> del ejercicio ejemplificado en el punto anterior, y se le aplica estilo con css</span>
+
+          <div class="namesInnertHTML">
+            <p id="fetch-petition"></p>     
+          </div>          
+        </li>
       </ul>
     </section>
 
-    <section class="img-container">
-      <p class="text-img"> * Ver código funcional en archivo ejercicio-1.js</p>
-      <img src="./img/code.png" alt="Imagen de código JavaScript">
-    </section>
   </main>
-  <!-- Menú lateral -->
+  <!-- ******************** Menú lateral ******************** -->
   <nav>
     <div class="nav-menu-container">
       <div class="nav-img-link">
-        <img class="nav-img" src="../a_img_general/logo-git.png" alt="Logo JavaScript">
+        <img class="nav-img" src="../a_img_general/logo-git.png" alt="">
         <a class="nav-link" href="../clase04_git_github/index.html">
           Clase <span>04</span> - git y github
         </a>
       </div>
       <div class="nav-img-link">
         <img class="nav-img" src="../a_img_general/logo_js.png" alt="Logo JavaScript">
-        <a class="nav-link select" href="#">
+        <a class="nav-link" href="../clase05_intro_js/index.html">
           Clase <span>05</span> - Intro JS
         </a>
       </div>
@@ -88,16 +94,15 @@
       </div>
       <div id class="nav-img-link">
         <img class="nav-img" src="../a_img_general/logo_react.png" alt="Logo JavaScript">
-        <a class="nav-link" href="../clase10_asinchronism_fetch_js/">
+        <a class="nav-link select" href="../clase10_asinchronism_fetch_js/">
           Clase <span>10</span> - Intro Asincronismo - Fetch
         </a>
-      </div>
-      
+      </div>      
     </div>
   </nav>
   <footer>
 
   </footer>
-  <script src="./js/ejercicio_1.js"></script>
+  <script src="./js/fetch.js"></script>
 </body>
 </html>

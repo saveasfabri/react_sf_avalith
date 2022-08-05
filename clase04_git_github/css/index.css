@@ -8,7 +8,6 @@
 }
 
 body {
-  margin: 0 5vw;
   background-color: #161616;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -40,10 +39,11 @@ p {
 }
 
 header {
-  margin-top: 50px;
+  margin: 0 5vw;
   grid-area: header;
 }
 header .title-sf {
+  margin-top: 50px;
   padding: 15px 0;
   border: 2px solid #d6daa9;
   background-color: rgba(36, 36, 36, 0.9921568627);
@@ -58,6 +58,7 @@ header .title-sf .skill {
 }
 
 main {
+  margin-left: 5vw;
   grid-area: main;
 }
 main .container-img-title {
@@ -101,6 +102,7 @@ main .topics-container .ul-topics li {
   font-size: 1em;
   margin-top: 5px;
   color: #ff192d;
+  line-height: 1.3em;
 }
 main .topics-container .ul-topics li span {
   color: #d6daa9;
@@ -146,6 +148,7 @@ main .topics-container .ul-topics .boton-container .link-boton a:hover {
 
 nav {
   margin-top: 50px;
+  margin-right: 5vw;
   grid-area: nav;
 }
 nav .nav-menu-container {
@@ -158,6 +161,7 @@ nav .nav-menu-container {
 nav .nav-menu-container .nav-img-link {
   width: 100%;
   margin-top: 15px;
+  padding-left: 5px;
   display: flex;
   align-items: center;
   transition: all 0.2s ease-out;
@@ -175,14 +179,18 @@ nav .nav-menu-container .nav-img-link .select {
   border-bottom: 1px solid rgba(255, 25, 44, 0.5764705882);
 }
 nav .nav-menu-container .nav-img-link:hover {
-  background-color: rgba(36, 36, 36, 0.9921568627);
-  border-left: 5px solid #ff192d;
+  background-color: rgba(0, 0, 0, 0.123);
+  border-left: 3px solid #ff192d;
 }
 nav .nav-menu-container .nav-img-link:hover span {
   color: #ff192d;
 }
 
 footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  background-color: #000;
   grid-area: footer;
 }
 
@@ -196,7 +204,6 @@ footer {
 }
 
 body {
-  margin: 0 5vw;
   background-color: #161616;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -228,10 +235,11 @@ p {
 }
 
 header {
-  margin-top: 50px;
+  margin: 0 5vw;
   grid-area: header;
 }
 header .title-sf {
+  margin-top: 50px;
   padding: 15px 0;
   border: 2px solid #d6daa9;
   background-color: rgba(36, 36, 36, 0.9921568627);
@@ -246,6 +254,7 @@ header .title-sf .skill {
 }
 
 main {
+  margin-left: 5vw;
   grid-area: main;
 }
 main .container-img-title {
@@ -289,6 +298,7 @@ main .topics-container .ul-topics li {
   font-size: 1em;
   margin-top: 5px;
   color: #ff192d;
+  line-height: 1.3em;
 }
 main .topics-container .ul-topics li span {
   color: #d6daa9;
@@ -334,6 +344,7 @@ main .topics-container .ul-topics .boton-container .link-boton a:hover {
 
 nav {
   margin-top: 50px;
+  margin-right: 5vw;
   grid-area: nav;
 }
 nav .nav-menu-container {
@@ -346,6 +357,7 @@ nav .nav-menu-container {
 nav .nav-menu-container .nav-img-link {
   width: 100%;
   margin-top: 15px;
+  padding-left: 5px;
   display: flex;
   align-items: center;
   transition: all 0.2s ease-out;
@@ -363,14 +375,18 @@ nav .nav-menu-container .nav-img-link .select {
   border-bottom: 1px solid rgba(255, 25, 44, 0.5764705882);
 }
 nav .nav-menu-container .nav-img-link:hover {
-  background-color: rgba(36, 36, 36, 0.9921568627);
-  border-left: 5px solid #ff192d;
+  background-color: rgba(0, 0, 0, 0.123);
+  border-left: 3px solid #ff192d;
 }
 nav .nav-menu-container .nav-img-link:hover span {
   color: #ff192d;
 }
 
 footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  background-color: #000;
   grid-area: footer;
 }
 
