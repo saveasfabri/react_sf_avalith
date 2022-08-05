@@ -186,7 +186,10 @@ nav {
         margin-left: 15px;
       }
       .select {
-        border-bottom: 1px solid $red-soft;
+                
+        span {
+          border-bottom: 1px solid $red-soft;
+        }
       }
       &:hover {
         background-color: rgba(0, 0, 0, 0.123);
