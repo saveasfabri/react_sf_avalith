@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vw;
+  height: 100vh;
+  background-color: #161616;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 6% 94%;
+  grid-template-areas: "header" "main";
+}
+
+header {
+  width: 100%;
+  grid-area: header;
+}
+
+main {
+  height: 100%;
+  background-image: url(../img/background_r&M2.jpg);
+  background-position: left bottom;
+  background-size: cover;
+  overflow: hidden;
+  grid-area: main;
+  position: relative;
+}
+main .main-section {
+  height: auto;
+  position: absolute;
+  display: flex;
+}
+main .main-section .button-container {
+  width: 695px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .main-section .button-container .main-button {
+  width: 250px;
+  height: 50px;
+  margin: 70px 0 0 295px;
+  font-family: "OCR A Extended", sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  border: none;
+  background-color: #27852b;
+  box-shadow: 0 1px 6px rgba(72, 214, 69, 0.2);
+}
+main .main-section .button-container .main-button:last-child {
+  margin-bottom: 50px;
+}
+main .main-section .tablet-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-section .tablet-container .tablet {
+  width: 70%;
+}
+main .main-section .tablet-container .tablet .tablet-img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
