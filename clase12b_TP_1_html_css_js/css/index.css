@@ -29,8 +29,8 @@ main {
   background-position: left bottom;
   background-size: cover;
   overflow: hidden;
-  grid-area: main;
   position: relative;
+  grid-area: main;
 }
 main .main-section {
   width: 100%;
