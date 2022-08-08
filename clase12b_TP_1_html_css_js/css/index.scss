@@ -129,6 +129,9 @@ main {
                 margin-top: 7px;
                 background-color: #00360cd8;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 &:hover {
                   background-color: #004d11d8;
                   box-shadow: 0 0 20px #30a12e;
@@ -137,6 +140,9 @@ main {
                   border: 3px solid #002c09;
                   background-color: #012b0ad8;
                   box-shadow: 0 0 20px #30a12e;
+                }
+                .img-btn1 {
+                  width: 17px;
                 }
               }
               .btn2 {
