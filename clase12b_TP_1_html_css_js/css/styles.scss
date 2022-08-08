@@ -5,7 +5,11 @@
 @import '../_general/form';
 @import '../_general/users';
 
-
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
 
 body {
   height: 100vw;
