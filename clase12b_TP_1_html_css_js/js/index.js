@@ -39,3 +39,5 @@ click4.addEventListener("click", () => {
   etiquetaAudio.setAttribute("src", "./img/click.wav")
   etiquetaAudio.play()
 });
+
+

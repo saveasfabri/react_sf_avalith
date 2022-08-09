@@ -92,7 +92,40 @@
           justify-content: center;            
           overflow: hidden;
           .text-screen {
+            width: 90%;
+          }
+          .btn-cont {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .main-link {
+              width: 40%;
+              padding: 10px 0;
+              margin-top: 20px;
+              font-family: $ocr;
+              font-size: 1.2em;
+              color: #8fe803;
+              border: none;
+              border-radius: 50px;
+              background: #00470fe7;
+              box-shadow: 0 0 40px rgba(72,214,69,.7);
+              cursor: pointer;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+              text-decoration: none;
+              &:last-child {
+                margin-bottom: 50px;
+              }
+              &:hover {
+                color: rgb(44, 90, 23);
+                background-color: #8fe803;
+                box-shadow: 0px 0px  50px #47d645d2;
+              }
+            }
           }
         }
         .panel {
