@@ -38,6 +38,13 @@ p {
     color: $red-soft;
   }
 }
+.text-img {
+  font-size: .8em;
+  font-style: italic;
+  color: $grey;
+  margin-top: 30px;
+  margin-left: 2vw;          
+}    
 
 header {  
   margin: 0 5vw;
@@ -122,15 +129,7 @@ main {
             font-size: .9em;
             font-weight: 300;
           }
-        }
-
-        .text-img {
-          font-size: .8em;
-          font-style: italic;
-          color: $grey;
-          margin-top: 30px;
-          margin-left: 2vw;          
-        }        
+        }            
       }
       .boton-container {
         width: 100%;
