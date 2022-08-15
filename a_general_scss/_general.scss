@@ -24,6 +24,7 @@ a {
 }
 p {
   font-size: 1em;
+  font-weight: 300;
 }
 .line {
   width: 95%;
@@ -112,13 +113,23 @@ main {
         line-height: 1.3em;
         span {
           color: $white-soft;
-        }        
+        }
+
+        .sub-ul-topics {
+          margin-left: 15px;
+          margin-top: 10px;
+          span {
+            font-size: .9em;
+            font-weight: 300;
+          }
+        }
+
         .text-img {
           font-size: .8em;
           font-style: italic;
           color: $grey;
           margin-top: 30px;
-          margin-left: 2vw;
+          margin-left: 2vw;          
         }        
       }
       .boton-container {

@@ -22,6 +22,7 @@ a {
 
 p {
   font-size: 1em;
+  font-weight: 300;
 }
 
 .line {
@@ -106,6 +107,14 @@ main .topics-container .ul-topics li {
 }
 main .topics-container .ul-topics li span {
   color: #d6daa9;
+}
+main .topics-container .ul-topics li .sub-ul-topics {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+main .topics-container .ul-topics li .sub-ul-topics span {
+  font-size: 0.9em;
+  font-weight: 300;
 }
 main .topics-container .ul-topics li .text-img {
   font-size: 0.8em;
@@ -194,7 +203,7 @@ footer {
   grid-area: footer;
 }
 
-.fx-img-code {
+.img-code {
   width: 80%;
 }
 
@@ -212,4 +221,33 @@ footer {
 }
 .namesInnertHTML #fetch-petition {
   font-size: 0.9em;
+}
+
+.ex1-container {
+  margin: 30px 0 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ex1-container .title-ex1 {
+  font-size: 1.4em;
+}
+.ex1-container .text-ex1 {
+  font-weight: 300;
+}
+.ex1-container .vs {
+  color: #ff192d;
+  margin: 15px 0;
+}
+.ex1-container .ex1-img {
+  margin-top: 20px;
+}
+
+.msg-extra {
+  margin: 20px 0 20px 50px;
+}
+
+.ex-img {
+  margin-top: 20px;
 }/*# sourceMappingURL=index.css.map */

@@ -47,12 +47,41 @@
       <ul class="ul-topics">
         <li>
           <span>Aprender a trabajar con <a href="https://www.w3schools.com/Js/js_asynchronous.asp" class="link-definition" target="_blank">asincronismo</a> en JavaScript nos permitirá ejecutar tareas tengan un tiempo diferido respecto al tiempo de ejecución hasta que se consideren finalizadas.</span>
+          <ul >
+            <li class="sub-ul-topics"><span>JavaScript => Lenguaje Monohilo (Single-thread).</span></li>
+            <li class="sub-ul-topics"><span>Significa que solo puede hacer una tarea a la vez (secuencial).</span></li>
+            <li class="sub-ul-topics"><span>Aunque no sea multitarea (mejor llamado multi-thread), puede delegar la ejecución a otros procesos..</span></li>
+          </ul>
 
-          <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism.js</p>
+          <div class="ex1-container">
+            <h2 class="title-ex1">Modelo de concurrencia</h2>
+            <p class="text-ex1">(Dos o más tareas progresan simultáneamente)</p>
+            <pc class="vs">VS</pc>
+            <h2 class="title-ex1">Modelo de Paralelismo</h2>
+            <p class="text-ex1">(Dos o más tareas ocurren simultáneamente)</p>
+            <img class="img-code ex1-img" src="../clase11_asinchronism__js/img/ex1.jpg" alt="Imágen de código">
+            <img class="img-code ex1-img" src="../clase11_asinchronism__js/img/ex1-2.jpg" alt="Imágen de código">
+          </div>
+        </li>  
+        <li>
+          <span>JavaScript es un lenguaje concurrente, asíncrono, no
+            bloqueante, interpretado, de alto nivel, monohilo.</span>
+        </li>      
+      </ul>
+      
+      <h3 class="title-topics">Event Loop y Call Stack</h3>
+      <ul class="ul-topics">
+        <li>
+          <span>¿Cómo maneja el asincronismo, la concurrencia y el no-bloqueo si es single-thread?</span>
+          <h3 class="msg-extra">Mecanismo Event Loop</h3>
+          <p>JavaScript posee una pila de ejecución llamada Call Stack donde coloca las llamadas a funciones según el orden en que deban ejecutarse.</p>
+          <p>Cada línea de ejecución se lee de forma secuencial pero, cuando una función llama a otra,entonces esa tarea se agrega a la pila hasta que termina de ejecutarla y luego la elimina de la pila</p>
+        </li>
+      </ul>
 
-          <img class="fx-img-code" src="" alt="Imágen de código">         
-        </li>     
-      </ul>      
+      <h3 class="title-topics">Event Loop</h3>
+        <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2.jpg" alt="Imágen de código">
+        <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2-2.jpg" alt="Imágen de código">
     </section>
 
   </main>
