@@ -1,94 +1,69 @@
 # SKIL FACTORY - AVALITH
 ------------------------------
-## :book:Clase 9 - 29-07
+## :book:Clase 11 - 03-08
 [youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9](https://www.youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9)
 
-### Funciones y Métodos 2 JavaScript
-
+### Asincronismo
 
 
 <section>
-  <h5>Filter, find, destrocturing an spread operator</h5>
-  <ul>
-    <li>
-      <div>
-        <a href="#filter">. filter( )</a>
-        <a href="#find">. find( )</a>
-        <a href="#dest">. Destructuring</a>
-        <a href="#spread">. Spread Operator</a>
-      </div>     
-    </li>
-  </ul> 
-
-  <h5 id="filter">Método Filter</h5>
-  <ul>
-    <li>
-      <span><a href="https://www.w3schools.com/jsref/jsref_filter.asp" target="_blank">Filter</a> nos permite iterar por cada elemento de un determinado array y nos devolerá otro array con la información que se corresponda con la condición que le indiquemos en el <a href="https://www.w3schools.com/js/js_callback.asp" target="_blank">callback</a> de la función.</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img src="./img/codeFilter2Iguales.png" alt="Imágen de código">          
-      <img src="./img/codeFilter3Iguales.png" alt="Imágen de código">          
-      <img src="./img/codeFilterDistinto2Iguales.png" alt="Imágen de código">          
-    </li>
-    <li>
-      <span>Filter en Acción</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img width="50%" src="./img/codeArrayConObjetos.png" alt="Imágen de código">
-      <img src="./img/codeFilterMenor3.png" alt="Imágen de código">
-      <img src="./img/codeFilterGuille.png" alt="Imágen de código">
-      <img src="./img/codeFilterToLoweCase.png" alt="Imágen de código">
-    </li>        
-  </ul>
-  
-  
-
-  <h5>Método Map y Filter</h5>
-  <ul>
-    <li>
-      <span>Un problema recurrente cuando solicitamos o nos llega la información desde una API y el caudal de información grande, la performance puede verse afectada por el alto costo de métodos en conjunto (si, se puede) para poder crear un algoritmo de mejor rendimiento.</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img width="50%" src="./img/codeArrayMapFilter.png" alt="Imágen de código">          
-      <img src="./img/codeMapFilter.png" alt="Imágen de código">          
-    </li>
-  </ul>
-  
-  
-
-  <h5 id="find">Método Find</h5>
-  <ul>
-    <li>
-      <span><a href="https://www.w3schools.com/jsref/jsref_find.asp" target="_blank">Find</a> similar a lo que hace Filter y Map, recorre un array dado y devuelve la primera coincidencia respecto a una condición dada. A partir de ese momento deja de recorrer el array.</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img width="50%" id="zc "src="./img/codeArrayFind.png" alt="Imágen de código">
-      <img src="./img/codeFind.png" alt="Imágen de código">
-    </li>
-  </ul>
-  
-  
-
-  <h5 id="dest">Destructuring</h5>
-  <ul>
-    <li>
-      <span><a href="https://www.w3schools.com/react/react_es6_destructuring.asp" target="_blank">Destructuring</a> (Desestructuración) es una expresión de JavaScript que nos permite extraer datos de matrices, objetos y mapas y establecerlos en variables nuevas y distintas. La desestructuración nos permite extraer múltiples propiedades, o elementos, de una matriz a la vez.</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img src="./img/codeOldDestroct.png" alt="Imágen de código">
-      <img width="50%" src="./img/codeObjetDestruct.png" alt="Imágen de código">
-      <img src="./img/codeOtherDestruct.png" alt="Imágen de código">
-    </li>
-  </ul>
-  
-  
-
-  <h5 id="spread">Spread Operator</h5>
-  <ul>
-    <li>
-      <span><a href="https://www.w3schools.com/react/react_es6_spread.asp" target="_blank">Spread Operator</a> (Operador de propagación) es una nueva adición al conjunto de operadores en JavaScript ECMAScript 6. Toma un iterable (por ejemplo, una matriz) y lo expande en elementos individuales.
-      Spread Operator se usa comúnmente para hacer copias superficiales de objetos JS. El uso de este operador hace que el código sea conciso y mejora su legibilidad.</span>
-      <p> * Ver código funcional en archivo ejercicio-funciones2.js</p>
-      <img src="./img/codeSpreadConcat.png" alt="Imágen de código">
-      <img src="./img/codeSpreadOperator.png" alt="Imágen de código">
-    </li>
-  </ul>
-</section>
+      <h3>Antes de empezar: setTimeOut</h3>
+      <ul>
+        <li>
+          <span>El método <a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" target="_blank">setTimeOut( )</a> es un temporizador. Este método permite ejecutar un <a href="https://www.w3schools.com/js/js_callback.asp" target="_blank">callback</a> luego de que haya transcurrido un determinado tiempo. Los dos parámetros más importantes a tener en cuenta son: la function a ejecutar y el time (en ms) que debe esperar para ejecutarse.</span>
+          <p> * Ver código funcional en archivo ./js/asinchronism.js</p>
+          <img width="70%" src="../clase11_asinchronism__js/img/codeSetTimeOut_700.png">         
+          <img width="70%" src="../clase11_asinchronism__js/img/codeSetTimeOut2_700.png ">         
+          <img width="70%" src="../clase11_asinchronism__js/img/codeSetTimeOut3_700.png ">         
+        </li>     
+      </ul>  
+      <h3>Asincronismo</h3>
+      <ul>
+        <li>
+          <span>Aprender a trabajar con <a href="https://www.w3schools.com/Js/js_asynchronous.asp" target="_blank">asincronismo</a> en JavaScript nos permitirá ejecutar tareas tengan un tiempo diferido respecto al tiempo de ejecución hasta que se consideren finalizadas.</span>
+          <ul >
+            <li><span>JavaScript => Lenguaje Monohilo (Single-thread).</span></li>
+            <li><span>Significa que solo puede hacer una tarea a la vez (secuencial).</span></li>
+            <li><span>Aunque no sea multitarea (mejor llamado multi-thread), puede delegar la ejecución a otros procesos..</span></li>
+          </ul>
+          <div>
+            <h2>Modelo de concurrencia</h2>
+            <p>(Dos o más tareas progresan simultáneamente)</p>
+            <pc>VS</pc>
+            <h2>Modelo de Paralelismo</h2>
+            <p>(Dos o más tareas ocurren simultáneamente)</p>
+            <img src="../clase11_asinchronism__js/img/ex1.jpg">
+            <img src="../clase11_asinchronism__js/img/ex1-2.jpg">
+          </div>
+        </li>  
+        <li>
+          <span>JavaScript es un lenguaje concurrente, asíncrono, no
+            bloqueante, interpretado, de alto nivel, monohilo.</span>
+        </li>      
+      </ul>      
+      <h3>Event Loop y Call Stack</h3>
+      <ul>
+        <li>
+          <span>¿Cómo maneja el asincronismo, la concurrencia y el no-bloqueo si es single-thread?</span>
+          <h3><a href="https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd" target="_blank">Mecanismo Event Loop</a></h3>          
+          <p>JavaScript posee una pila de ejecución llamada Call Stack donde coloca las llamadas a funciones según el orden en que deban ejecutarse.</p>
+          <p>Cada línea de ejecución se lee de forma secuencial pero, cuando una función llama a otra,entonces esa tarea se agrega a la pila hasta que termina de ejecutarla y luego la elimina de la pila</p>
+        </li>
+      </ul>
+      <h3>Event Loop</h3>
+      <img src="../clase11_asinchronism__js/img/ex2.jpg">
+      <img src="../clase11_asinchronism__js/img/ex2-2.jpg">
+      <h3>Callback</h3>
+      <ul>
+        <li>
+          <span>Un <a href="https://www.w3schools.com/js/js_callback.asp" target="_blank">callback</a> es una función que recibe como parámetro a otra función.</span>
+          <p>Cuando una función llama a otra función y esta última se resuelve, será agregada al Callback Queue. Esto indica que JS sigue ejecutando todas las demás tareas sincrónicas y, cuando se quede sin funciones a ejecutar en la pila de ejecución, allí
+            agregará la información obtenida desde la cola de tareas</p>
+        </li>
+        <p> * Ver código funcional en archivo ./js/asinchronism.js</p>
+        <img src="../clase11_asinchronism__js/img/codeCallStack.png">
+      </ul>
+    </section>
 
 __Repositorio :__
-[github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_metodos2_js](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_metodos2_js)
+[github.com/saveasfabri/react_sf_avalith/tree/main/clase11_asinchronism__js](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase11_asinchronism__js)
