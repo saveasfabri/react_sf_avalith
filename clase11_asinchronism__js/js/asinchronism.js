@@ -30,7 +30,7 @@ setTimeout(() => {
 
 // Ejercicio console.log() con3 Arrow Function
 
-setTimeout(() => {
+/* setTimeout(() => {
     console.log("First");
     setTimeout(() => {
         console.log("Second");
@@ -38,24 +38,30 @@ setTimeout(() => {
             console.log("Third");
         }, 3000);
     }, 1000);
-}, 5000);
+}, 5000); */
 //Mismo resultado anterior pero con arrow function
 
-/*  // Exercise Asynchronism
+// Exercise Asynchronism
 
-console.log("1");
+/* console.log("1");
 setTimeout(function () {
     console.log("2");
 }, 3000);
 console.log("3");
 setTimeout(function () {
     console.log("4");
-}, 1000); */
+}, 1000);
+//Devuelve:
+  //1°: 1
+  //2°: 3
+  //3°: 4
+  //4°: 2
+ */
 
- // Expected output: 1 3 4 2
-
+  
 // Exercise for Call Stack
-/* function installSoftware(software) {
+
+function installSoftware(software) {
     console.log("Installing Software " + software);
 }
 
@@ -63,6 +69,7 @@ function customizeEditor(numberExtensions) {
     if (numberExtensions <= 0) return;
     console.log(`Installing ${numberExtensions} extensions for VSC`);
 }
+
 
 function readyForProgramming() {
     console.log("Environment ready for begin to Programming");
@@ -76,4 +83,9 @@ function prepareEnvironment() {
     readyForProgramming();
 }
 prepareEnvironment();
- */
+//Devuelve:
+  //Installing Software Git;
+  //Installing Software Visual Studio Code;
+  //Installing Software Node.js;
+  //Installing Software 5 extensions for VSC;
+  //Environment ready for begin to Programming;

@@ -38,9 +38,9 @@
 
           <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism.js</p>
 
-          <img class="fx-img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut_700.png" alt="Imágen de código">         
-          <img class="fx-img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut2_700.png " alt="Imágen de código">         
-          <img class="fx-img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut3_700.png " alt="Imágen de código">         
+          <img class="img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut_700.png" alt="Imágen de código">         
+          <img class="img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut2_700.png " alt="Imágen de código">         
+          <img class="img-code" src="../clase11_asinchronism__js/img/codeSetTimeOut3_700.png " alt="Imágen de código">         
         </li>     
       </ul>  
       <h3 class="title-topics">Asincronismo</h3>
@@ -59,6 +59,7 @@
             <pc class="vs">VS</pc>
             <h2 class="title-ex1">Modelo de Paralelismo</h2>
             <p class="text-ex1">(Dos o más tareas ocurren simultáneamente)</p>
+
             <img class="img-code ex1-img" src="../clase11_asinchronism__js/img/ex1.jpg" alt="Imágen de código">
             <img class="img-code ex1-img" src="../clase11_asinchronism__js/img/ex1-2.jpg" alt="Imágen de código">
           </div>
@@ -73,15 +74,29 @@
       <ul class="ul-topics">
         <li>
           <span>¿Cómo maneja el asincronismo, la concurrencia y el no-bloqueo si es single-thread?</span>
-          <h3 class="msg-extra">Mecanismo Event Loop</h3>
+          <h3 class="msg-extra"><a href="https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd" class="link-definition" target="_blank">Mecanismo Event Loop</a></h3>
+          
           <p>JavaScript posee una pila de ejecución llamada Call Stack donde coloca las llamadas a funciones según el orden en que deban ejecutarse.</p>
           <p>Cada línea de ejecución se lee de forma secuencial pero, cuando una función llama a otra,entonces esa tarea se agrega a la pila hasta que termina de ejecutarla y luego la elimina de la pila</p>
         </li>
       </ul>
 
       <h3 class="title-topics">Event Loop</h3>
-        <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2.jpg" alt="Imágen de código">
-        <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2-2.jpg" alt="Imágen de código">
+      <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2.jpg" alt="Imágen de Event loop">
+      <img class="img-code ex-img" src="../clase11_asinchronism__js/img/ex2-2.jpg" alt="Imágen de Event loop">
+
+      <h3 class="title-topics">Callback</h3>
+      <ul class="ul-topics">
+        <li>
+          <span>Un <a href="https://www.w3schools.com/js/js_callback.asp" class="link-definition" target="_blank">callback</a> es una función que recibe como parámetro a otra función.</span>
+          <p>Cuando una función llama a otra función y esta última se resuelve, será agregada al Callback Queue. Esto indica que JS sigue ejecutando todas las demás tareas sincrónicas y, cuando se quede sin funciones a ejecutar en la pila de ejecución, allí
+            agregará la información obtenida desde la cola de tareas</p>
+        </li>
+
+        <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism.js</p>
+
+        <img class="img-code" src="../clase11_asinchronism__js/img/codeCallStack.png" alt="Imágen de código">
+      </ul>
     </section>
 
   </main>
