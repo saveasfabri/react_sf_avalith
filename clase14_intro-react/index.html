@@ -29,22 +29,92 @@
         </h2>
       </div>
     </section>
+
     <!-- ************************************************************************************ -->
+
     <section class="topics-container">
-      <h3 class="title-topics">Intro React</h3>
+      <h3 class="title-topics">Intro a React</h3>
       <ul class="ul-topics">
         <li>
-          <span><a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" class="link-definition" target="_blank"></a> </span>
-
-          <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism3.js</p>
-
-          <img class="fx-img-code" src="../" alt="Imágen de código">         
-          
+          <span>Es una librería creada por Facebook para el Front End.<a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" class="link-definition" target="_blank"></a> </span>
         </li>     
-      </ul>  
-          
+        <li>
+          <span>Su primer release fue lanzada en Mayo 2013.</span>
+        </li>     
+        <li>
+          <span>Su propósito principal es facilitar la tarea de crear interfaces de usuarios.</span>
+        </li>     
+        <li>
+          <span>Propone el concepto de "Reactivo a los cambios".</span>
+        </li>     
+      </ul>
     </section>
 
+    <div class="line"></div>
+
+    <section class="topics-container">
+      <h3 class="title-topics">Creando un proyecto con CRA</h3>
+      <ul class="ul-topics">
+        <li>
+          <span>
+            CRA es el acrónimo correspondiente a <a href="https://create-react-app.dev/" class="link-definition" target="_blank">Create React App</a>. Es el comando que la librería trae de forma natural para poder crear un proyecto de React. Como sabemos que esto depende de Node, entonces es posible utilizar NPM para manejar los paquetes.
+          </span>
+          <p>
+            (En este caso, utilizaremos uno muy parecido que se llama <a href="https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b" class="link-definition" target="_blank">NPX</a> que no es más que un NPM pero ejecutable).
+          </p>
+        </li>
+        <li>
+          <span>
+            Veamos cómo crear un proyecto con CRA:
+          </span>
+          <ul class="sub-ul-topics">
+            <li>
+              <span>Tomamos una ubicación en el Explorador de archivos para crear, luego, la carpeta raiz del proyecto con npx desde la consola. En la barra de direccion al hacer click cambia y queda seleccionado mostrando, en este ejemplo la dirección "C:\Users\fazer\Desktop\react_sf_avalith".</span>
+            </li>
+            <img class="img-code ex-img" src="../clase14_intro-react/img/ex1.jpg" alt="Imágen de ejemplo"> 
+            <li>
+              <span>Mientras esta seleccionada la dirección, escribimos cmd para abrir la consola.</span>
+            </li>
+            <img class="img-code ex-img" src="../clase14_intro-react/img/ex2.jpg" alt="Imágen de ejemplo"> 
+            <li>
+              <span>En la consola, verificando que estamos en la ubicación correcta en la que queremos crear el proyecto (en este caso dentro de react_sf_avalith) y escribimos "npx create-react-app nombre_de_prroyecto". Aquí usaremos "clase14_first-proyect_cra", y damos enter.</span>
+            </li>
+            <img class="img-code ex-img" src="../clase14_intro-react/img/ex3.jpg" alt="Imágen de ejemplo"> 
+            <li>
+              <span>Al terminar de ejecutarce (demora bastante) nos aparecerá el mensaje al final "Happy Hacking".</span>
+            </li>
+            <img class="img-code ex-img" src="../clase14_intro-react/img/ex4.jpg" alt="Imágen de ejemplo"> 
+          </ul>
+        </li>
+      </ul>       
+    </section>
+
+    <div class="line"></div>
+
+    <section class="topics-container">
+      <h3 class="title-topics">Creando un proyecto con VITE</h3>
+      <ul class="ul-topics">
+        <li>
+          <span><a href="https://vitejs.dev/guide/" class="link-definition" target="_blank">Vite</a> se define como una herramienta de frontend que te ayudará a crear tus proyectos de forma agnóstica (sin atarte a ningún framework concreto) y que su desarrollo y construcción final sea lo más sencilla y cómoda posible. Está desarrollada por <a href="https://evanyou.me/" class="link-definition" target="_blank">Evan You</a>, el creador de Vue.
+          Actualmente, Vite soporta la creación tanto de proyectos vanilla (sin utilizar frameworks), como proyectos utilizando Vue, React, Preact, Svelte o Lit (tanto usando Javascript como Typescript).</span>
+        </li>
+        <li>
+          <span>Vamos a crear un proyecto con Vite:</span>
+          <ul class="sub-ul-topics">
+            <li>
+              <span>Para crear un proyecto completo con Vite en lugar de CRA, abriremos la consola dentro de la ubicación donde queremos crearlo (de la misma forma que se realiza en el método CRA) y escribiremos "npm init vite@latest [nombre-de-mi-proyecto]"</span>
+            </li>
+            <li>
+              <span>Dentro de la carpeta del proyecto, instalamos las dependencias npm install.
+                Ahora lanzamos nuestra aplicación con npm run dev.</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+    </section>
+    <!-- <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism3.js</p>
+      <img class="img-code ex-img" src="../" alt="Imágen de ejemplo">  -->
   </main>
   <!-- ******************** Menú lateral ******************** -->
   <nav>

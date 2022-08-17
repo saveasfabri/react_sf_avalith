@@ -204,7 +204,7 @@ footer {
   grid-area: footer;
 }
 
-.fx-img-code {
+.img-code {
   width: 80%;
 }
 
@@ -222,4 +222,9 @@ footer {
 }
 .namesInnertHTML #fetch-petition {
   font-size: 0.9em;
+}
+
+.ex-img {
+  margin-top: 20px;
+  margin-left: 20px;
 }/*# sourceMappingURL=index.css.map */
