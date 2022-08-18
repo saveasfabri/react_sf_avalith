@@ -46,6 +46,10 @@ p {
   margin-left: 2vw;          
 }    
 
+.p-text {
+  margin-top: 20px;
+}
+
 header {  
   margin: 0 5vw;
   grid-area: header;
@@ -115,7 +119,7 @@ main {
   
       li {
         font-size: 1em;
-        margin-top: 5px;
+        margin-top: 20px;
         color: $red;
         line-height: 1.3em;
         span {
@@ -125,9 +129,11 @@ main {
         .sub-ul-topics {
           margin-left: 15px;
           margin-top: 10px;
-          span {
-            font-size: .9em;
-            font-weight: 300;
+          li {
+            span {
+              font-size: .9em;
+              font-weight: 300;
+            }
           }
         }            
       }

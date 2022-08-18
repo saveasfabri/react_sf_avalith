@@ -47,6 +47,10 @@ p {
   margin-left: 2vw;
 }
 
+.p-text {
+  margin-top: 20px;
+}
+
 header {
   margin: 0 5vw;
   grid-area: header;
@@ -109,7 +113,7 @@ main .topics-container .ul-topics {
 }
 main .topics-container .ul-topics li {
   font-size: 1em;
-  margin-top: 5px;
+  margin-top: 20px;
   color: #ff192d;
   line-height: 1.3em;
 }
@@ -120,7 +124,7 @@ main .topics-container .ul-topics li .sub-ul-topics {
   margin-left: 15px;
   margin-top: 10px;
 }
-main .topics-container .ul-topics li .sub-ul-topics span {
+main .topics-container .ul-topics li .sub-ul-topics li span {
   font-size: 0.9em;
   font-weight: 300;
 }
