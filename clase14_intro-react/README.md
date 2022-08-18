@@ -1,11 +1,11 @@
 # SKIL FACTORY - AVALITH
 ------------------------------
 ## :book:Clase 14 - 12-08
-[Video no disponible aún](https://www.youtube.com/watch?v=9KHlwgLJ7ww&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=13)
+[youtube.com/watch?v=gjAr9Y461h8&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=14](https://www.youtube.com/watch?v=gjAr9Y461h8&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=14)
 
 
 
 
 
 __Repositorio :__
-[repo no disponible aún](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase12_asinchronism_II_js)
+[github.com/saveasfabri/react_sf_avalith/tree/main/clase14_intro-react](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase14_intro-react)
