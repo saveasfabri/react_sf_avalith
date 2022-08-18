@@ -1,10 +1,14 @@
 # SKIL FACTORY - AVALITH
-------------------------------
 ## :book:Clase 11 - 03-08
 [youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9](https://www.youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9)
 
-### Asincronismo
+#####Temas:
+* setTimeOut()
+* Asincronismo
+* Event Loop y Call Stack
+* Callback
 
+---
 
 <section>
       <h3>Antes de empezar: setTimeOut</h3>
@@ -24,13 +28,13 @@
           <ul >
             <li><span>JavaScript => Lenguaje Monohilo (Single-thread).</span></li>
             <li><span>Significa que solo puede hacer una tarea a la vez (secuencial).</span></li>
-            <li><span>Aunque no sea multitarea (mejor llamado multi-thread), puede delegar la ejecución a otros procesos..</span></li>
+            <li><span>Aunque no sea multitarea (mejor llamado multi-thread), puede delegar la ejecución a otros procesos.</span></li>
           </ul>
           <div>
-            <h2>Modelo de concurrencia</h2>
+            <h4>Modelo de concurrencia</h4>
             <p>(Dos o más tareas progresan simultáneamente)</p>
             <pc>VS</pc>
-            <h2>Modelo de Paralelismo</h2>
+            <h4>Modelo de Paralelismo</h4>
             <p>(Dos o más tareas ocurren simultáneamente)</p>
             <img src="../clase11_asinchronism__js/img/ex1.jpg">
             <img src="../clase11_asinchronism__js/img/ex1-2.jpg">
