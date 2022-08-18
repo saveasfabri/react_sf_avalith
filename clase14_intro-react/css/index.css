@@ -216,12 +216,8 @@ footer {
   width: 55%;
 }
 
-.namesInnertHTML {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-.namesInnertHTML #fetch-petition {
-  font-size: 0.9em;
+.p-text {
+  margin-top: 20px;
 }
 
 .ex-img {
