@@ -6,7 +6,7 @@
 // console.log("Console.log after execute function");
 
 // Código que se corta en la tercera línea
-try {
+/* try {
     const onIncorrectFunction = null;
     console.log("Console.log before execute function");
     onIncorrectFunction();
@@ -17,9 +17,9 @@ try {
     console.log("Error Name", error.name);
     console.log("Error Message", error.message);
 }
-console.log("Console.log after try-catch");
+console.log("Console.log after try-catch"); */
 
-const getNumberPokemon = prompt("Ingrese el número de pokemon");
+/* const getNumberPokemon = prompt("Ingrese el número de pokemon");
 const URL_GET_POKEMON = `https://pokeapi.co/api/v2/pokemon/${getNumberPokemon}`;
 
 const getPokemon = async () => {
@@ -35,4 +35,4 @@ const getPokemon = async () => {
         alert("No existen registros mayores a 25");
     }
 };
-getPokemon();
+getPokemon(); */
