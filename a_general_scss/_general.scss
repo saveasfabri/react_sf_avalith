@@ -105,6 +105,30 @@ main {
       }  
     }  
   }
+
+  .theme-guide {
+    width: 95%;
+    margin-top: 20px;
+    .title-theme {
+      font-size: 1.1em;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    ul {
+      list-style-position:inside;
+      margin-top: 5px;
+      li{
+        color: $grey;
+        line-height: 1.3em;
+        span {
+          font-size: .9em;
+          font-weight: 300;
+          color: $white-soft;
+        }
+      }
+    }
+  }
+
   .topics-container {
     width: 95%;
     margin-top: 40px;

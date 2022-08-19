@@ -98,6 +98,28 @@ main .container-img-title .title-container .sub-title-clase .link-youtube {
 main .container-img-title .title-container .sub-title-clase .link-youtube:hover {
   color: #ff192d;
 }
+main .theme-guide {
+  width: 95%;
+  margin-top: 20px;
+}
+main .theme-guide .title-theme {
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+main .theme-guide ul {
+  list-style-position: inside;
+  margin-top: 5px;
+}
+main .theme-guide ul li {
+  color: rgba(248, 253, 194, 0.5254901961);
+  line-height: 1.3em;
+}
+main .theme-guide ul li span {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #d6daa9;
+}
 main .topics-container {
   width: 95%;
   margin-top: 40px;
@@ -307,6 +329,28 @@ main .container-img-title .title-container .sub-title-clase .link-youtube {
 }
 main .container-img-title .title-container .sub-title-clase .link-youtube:hover {
   color: #ff192d;
+}
+main .theme-guide {
+  width: 95%;
+  margin-top: 20px;
+}
+main .theme-guide .title-theme {
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+main .theme-guide ul {
+  list-style-position: inside;
+  margin-top: 5px;
+}
+main .theme-guide ul li {
+  color: rgba(248, 253, 194, 0.5254901961);
+  line-height: 1.3em;
+}
+main .theme-guide ul li span {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #d6daa9;
 }
 main .topics-container {
   width: 95%;
