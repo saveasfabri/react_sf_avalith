@@ -1,8 +1,22 @@
 # SKIL FACTORY - AVALITH
-------------------------------
 ## :book:Clase 10 - 01-08
 [youtube.com/watch?v=VDsP2C55g0s&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=10](https://www.youtube.com/watch?v=VDsP2C55g0s&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=10)
 
+<section class="theme-guide">
+        <h4 class="theme-title">Temas:</h3>
+        <ul>
+          <li><span>Fetch</span></li>
+          <li><span>Ejemplo de impresion en el DOM de datos obtenidos de una API con fetch</span></li>
+        </ul>
+        <h4 class="theme-title">En archivo .js:</h3>
+        <ul>
+          <li><span>Fetch con .then()</span></li>
+          <li><span>Fetch con .then() + for</span></li>
+          <li><span>Fetch con .then() + map</span></li>
+        </ul>
+    </section>
+
+---
 
 <section class="topics-container">
       <h3 class="title-topics" id="filter">Fetch</h3>
