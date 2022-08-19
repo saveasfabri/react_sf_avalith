@@ -3,20 +3,21 @@
 [youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9](https://www.youtube.com/watch?v=Qx5Ofj1QMNc&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=9)
 
 <section class="theme-guide">
-      <h4 class="title-theme">Temas:</h3>
+      <h4 class="title-theme">Temas:</h4>
       <ul>
         <li><span>setTimeOut( )</span></li>
         <li><span>Asincronismo</spa></li>
         <li><span>Event Loop y Call Stack</spa></li>
         <li><span>Callback</spa></li>
       </ul>
-      <h4 class="title-theme">En archivo .js:</h3>
+      <h4 class="title-theme">En archivo .js:</h4>
       <ul>
         <li><span>Ejemplos de setTimeOut( )</span></li>
         <li><span>Ejemplo de Asincronismo con setTimeOut( )</span></li>
         <li><span>Ejemplo de Call Stack (prepareEviroment( ))</span></li>
       </ul>
-  </section>
+    </section>
+
 
 ---
 
