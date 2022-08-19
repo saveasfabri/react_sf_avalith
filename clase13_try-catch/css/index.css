@@ -233,7 +233,7 @@ footer {
 .img-code {
   margin-top: 20px;
   margin-left: 20px;
-  width: 60%;
+  width: 70%;
 }
 
 .map-img-code {
@@ -250,4 +250,10 @@ footer {
 }
 .namesInnertHTML #fetch-petition {
   font-size: 0.9em;
+}
+
+.ex-img {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20px;
 }/*# sourceMappingURL=index.css.map */
