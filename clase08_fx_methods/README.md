@@ -45,4 +45,4 @@
 </section>
 
 __Repositorio :__
-[github.com/saveasfabri/react_sf_avalith/tree/main/clase08_funciones_js](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase08_funciones_js)
+[github.com/saveasfabri/react_sf_avalith/tree/main/clase08_fx_methods](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase08_fx_methods)
