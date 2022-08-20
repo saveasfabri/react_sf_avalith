@@ -76,7 +76,7 @@
             agregará la información obtenida desde la cola de tareas</p>
         </li>
         <p> * Ver código funcional en archivo ./js/asinchronism.js</p>
-        <img src="../clase11_asinchronism__js/img/codeCallStack.png">
+        <img width="70%" src="../clase11_asinchronism__js/img/codeCallStack.png">
       </ul>
     </section>
 
