@@ -32,6 +32,7 @@ p {
 }
 
 .link-definition {
+  word-wrap: break-word;
   color: #ff192d;
 }
 .link-definition:hover {
@@ -263,6 +264,7 @@ p {
 }
 
 .link-definition {
+  word-wrap: break-word;
   color: #ff192d;
 }
 .link-definition:hover {
@@ -458,6 +460,33 @@ footer {
   margin-top: 100px;
   background-color: #000;
   grid-area: footer;
+}
+
+.cmds-git {
+  width: 80%;
+  margin: 20px 0 0 20px;
+  padding: 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(36, 36, 36, 0.9921568627);
+}
+.cmds-git p {
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px #000;
+}
+.cmds-git p span {
+  font-size: 0.9em;
+  font-weight: 200;
+  text-shadow: none;
+}
+
+.ex1-img {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.ex2-img {
+  margin-top: 20px;
 }
 
 .img-container {
