@@ -91,4 +91,4 @@
 </section>
 
 __Repositorio :__
-[github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_metodos2_js](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_metodos2_js)
+[github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_methods_2](https://github.com/saveasfabri/react_sf_avalith/tree/main/clase09_fx_methods_2)
