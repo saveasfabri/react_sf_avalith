@@ -32,6 +32,7 @@ p {
   border-bottom: .5px solid $linewhite;
 }
 .link-definition {
+  word-wrap: break-word;
   color: $red;
   &:hover {
     color: $red-soft;
