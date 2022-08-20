@@ -230,8 +230,17 @@ footer {
   grid-area: footer;
 }
 
-.fx-img-code {
-  width: 80%;
+.img-code {
+  width: 90%;
+}
+
+.img-ex {
+  margin: 30px 0 30px 50px;
+  width: 90%;
+}
+
+.ex2 {
+  width: 70%;
 }
 
 .map-img-code {
@@ -248,4 +257,28 @@ footer {
 }
 .namesInnertHTML #fetch-petition {
   font-size: 0.9em;
+}
+
+.pokemon {
+  width: 50%;
+  margin: 30px 0 0 50px;
+  padding: 15px;
+  background-color: rgba(36, 36, 36, 0.9921568627);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pokemon h1 {
+  text-align: center;
+  border-bottom: 1px solid #ff192d;
+}
+.pokemon .img-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokemon .img-name .name {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */

@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="icon" href="../a_img_general/logo_sf.svg">
-  <title>Clase 12 | Asincronismo II JS</title>
+  <title>Clase 12 | Fetch - Async/Await - Axios</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <section class="container-img-title">
       <img class="img-logo" src="../a_img_general/logo_js.png" alt="Imágen de JavaScript"/>
       <div class="title-container">
-        <h1>Asincronismo II JS - Async/Await</h1>
+        <h1>Fetch - Async/Await - Axios</h1>
         <h2 class="sub-title-clase">
           Clase 12 - 05/08 - 
           <a class="link-youtube" href="https://www.youtube.com/watch?v=Wwy0ASFa0qk&list=PLJPvCr6dK-cmOZSKyBMiQwptaQb30wqHl&index=12" target="_blank">
@@ -44,24 +44,62 @@
     </section>
     <div class="line"></div>
 
-    <!-- ************************************************************************************ -->
+    <!-- ********************************* MAIN ********************************* -->
+
     <section class="topics-container">
-      <h3 class="title-topics">Async/Await - Fetch/Axios</h3>
+      <h3 class="title-topics">Ejemplos con API Pókemon</h3>
       <ul class="ul-topics">
         <li>
-          <span><a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" class="link-definition" target="_blank"></a> </span>
+          <span>fetch( ) + then( )
 
           <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism2.js</p>
-
-          <img class="fx-img-code" src="../" alt="Imágen de código">         
+          <img class="img-code" src="../clase12_asinchronism_II_js/img/codeFetchThen_760.png" alt="Imágen de código">   
+          
+          <ul class="sub-ul-topics">
+            <li><span>Abajo se muestra el código anterior impreso en el DOM con JS y CSS</span></li>
+          </ul>
+          <div id="pokemon" class="pokemon"></div>
           
         </li>     
-      </ul>  
+      </ul>
+
+      <ul class="ul-topics">
+        <li>
+          <span>fetch( ) + Async/Await( )
+
+          <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism2.js</p>
+          <img class="img-code" src="../clase12_asinchronism_II_js/img/codeFetchAwait_760.png" alt="Imágen de código">   
           
+          <ul class="sub-ul-topics">
+            <li><span>Abajo se muestra el código anterior impreso en el DOM con JS y CSS</span></li>
+          </ul>
+          <div id="pokemon-async-await" class="pokemon"></div>
+          
+        </li>     
+      </ul>
+
+      <ul class="ul-topics">
+        <li>
+          <span>fetch( ) + Axios( )</span>
+          <p><a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" class="link-definition" target="_blank">Axios</a> es una líbreria de JS. Para poder usarla nos dirigimos a la pagina web de Axios ( <a href="https://www.w3schools.com/jsref/met_win_settimeout.asp" class="link-definition" target="_blank">https://axios-http.com/docs/intro</a> ). Como no estamos usando node.js en este ejemplo, vamos a agregarla copiando la etiqueta script de CDN jsDelivr </p>
+          <img class="img-ex" src="../clase12_asinchronism_II_js/img/ex1.jpg" alt="Imágen de ejemplo">
+          <p>Y lo agregamos en el html por encima de los demás script</p>
+          <img class="img-ex ex2" src="../clase12_asinchronism_II_js/img/ex2.jpg" alt="Imágen de ejemplo">
+
+          <p class="text-img"> * Ver código funcional en archivo ./js/asinchronism2.js</p>
+          <img class="img-code" src="../clase12_asinchronism_II_js/img/codeFetchAwait_760.png" alt="Imágen de código">   
+          
+          <ul class="sub-ul-topics">
+            <li><span>Abajo se muestra el código anterior impreso en el DOM con JS y CSS</span></li>
+          </ul>
+          <div id="pokemon-axios" class="pokemon"></div>
+          
+        </li>     
+      </ul>
     </section>
 
   </main>
-  <!-- ******************** Menú lateral ******************** -->
+  <!-- ********************************* Menú lateral ********************************* -->
   <nav>
     <div class="nav-menu-container">
       <div class="nav-img-link">
@@ -133,9 +171,11 @@
     </div>
   </nav>
 
+  <!-- ********************************* Footer ********************************* -->
   <footer>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./js/asinchronism2.js"></script>
 </body>
 </html>
