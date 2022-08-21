@@ -137,7 +137,7 @@ main .topics-container .ul-topics li {
   font-size: 1em;
   margin-top: 20px;
   color: #ff192d;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 main .topics-container .ul-topics li span {
   color: #d6daa9;
@@ -235,24 +235,21 @@ footer {
   width: 80%;
 }
 
-.map-img-code {
-  width: 100%;
-}
-
-.special {
-  width: 55%;
-}
-
-.p-text {
+.p-special {
+  font-weight: 300;
+  font-style: italic;
   margin-top: 20px;
 }
 
 .ex-img {
-  margin-left: 20px;
+  width: 80%;
+  margin: 20px 0 0 20px;
+  box-shadow: 0 0 15px rgba(214, 218, 169, 0.1176470588);
 }
 
 .ex6-img {
-  width: 40%;
+  width: 50%;
   margin-top: 20px;
   margin-left: 20px;
+  box-shadow: 0 0 15px rgba(214, 218, 169, 0.1176470588);
 }/*# sourceMappingURL=index.css.map */
