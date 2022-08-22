@@ -48,6 +48,7 @@ p {
 }
 
 .p-text {
+  font-weight: 300;
   margin-top: 20px;
 }
 
@@ -308,4 +309,9 @@ footer .footer-3 .social-icons .icon-social:active {
 
 .p-special {
   margin-top: 20px;
+}
+
+.w1 {
+  width: 20%;
+  min-width: 200px;
 }/*# sourceMappingURL=index.css.map */
