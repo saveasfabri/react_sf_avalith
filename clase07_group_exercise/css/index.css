@@ -127,7 +127,7 @@ main .topics-container {
 }
 main .topics-container .title-topics {
   font-size: 1.4em;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 main .topics-container .ul-topics {
   margin-top: 30px;
@@ -136,7 +136,7 @@ main .topics-container .ul-topics {
 }
 main .topics-container .ul-topics li {
   font-size: 1em;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #ff192d;
   line-height: 1.4em;
 }
