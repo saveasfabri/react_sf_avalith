@@ -315,13 +315,29 @@ footer .footer-3 .social-icons .icon-social:active {
   margin-top: 20px;
 }
 
-.w1 {
+.w20 {
   width: 20%;
   min-width: 200px;
 }
 
-.w2 {
+.w50 {
+  width: 50%;
+}
+
+.w100 {
   width: 100%;
+}
+
+.mnw200 {
+  min-width: 200px;
+}
+
+.mnw300 {
+  min-width: 300px;
+}
+
+.mnw500 {
+  min-width: 500px;
 }
 
 .clean-scaffo {
