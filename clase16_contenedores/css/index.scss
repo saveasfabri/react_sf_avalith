@@ -1,0 +1,52 @@
+@import '../../a_general_scss/general';
+@import '../../a_general_scss/variables';
+
+
+//configurado en ./css/_generales.scss
+
+
+.img-code {
+  margin-top: 20px;
+  width: 80%;
+}
+.ex-img {
+  width: 80%;
+  margin: 20px 0 0 20px;
+  box-shadow: 0 0 15px #d6daa91e;
+}
+.p-text {
+  margin-top: 10px;
+}
+.p-special {
+  margin-top: 20px;
+}
+.w20 {
+  width: 20%;
+  min-width: 200px;
+}
+.w50 {
+  width: 50%;
+}
+.w100 {
+  width: 100%;
+}
+.mnw200 {
+  min-width: 200px;
+}
+.mnw300 {
+  min-width: 300px;
+}
+.mnw500 {
+  min-width: 500px;
+}
+
+.clean-scaffo {
+  margin-top: 20px;
+  display: flex;
+  .clean-text {
+    margin: 30px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
