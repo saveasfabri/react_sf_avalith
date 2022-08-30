@@ -54,9 +54,9 @@ p {
 }
 
 .link-video-container {
-  width: 80%;
+  width: 95%;
   height: auto;
-  border: 2px solid #d6daa9;
+  border: 2px solid rgba(178, 182, 140, 0.5215686275);
   border-radius: 10px;
   margin: 20px 0 0 20px;
   background-color: #1a1a1a;
@@ -72,6 +72,7 @@ p {
 .link-video-container .link-video {
   width: 100%;
   height: 100%;
+  padding: 5px;
   display: flex;
   align-items: center;
   box-shadow: 0 0 15px rgba(214, 218, 169, 0.12);
@@ -84,7 +85,6 @@ p {
 }
 .link-video-container .link-video .img-container {
   width: 40%;
-  padding: 5px;
   display: flex;
   align-items: center;
 }
@@ -92,16 +92,20 @@ p {
   width: 100%;
   border-radius: 5px 0 0 5px;
 }
-.link-video-container .link-video .link-descriptions {
+.link-video-container .link-video .descriptions {
   width: 60%;
   height: 100%;
-  margin-left: 15px;
+  margin-left: 20px;
 }
-.link-video-container .link-video .link-descriptions .link-text-video {
+.link-video-container .link-video .descriptions .text-video {
   font-size: 0.9em;
+  font-weight: 300;
   margin-top: 20px;
 }
-.link-video-container .link-video .link-descriptions .text-yt {
+.link-video-container .link-video .descriptions .text-video span {
+  font-weight: 500;
+}
+.link-video-container .link-video .descriptions .text-yt {
   color: rgba(255, 25, 44, 0.5764705882);
   font-size: 0.8em;
   font-style: italic;
@@ -180,7 +184,7 @@ main .theme-guide ul li {
 main .theme-guide ul li .anchor-link {
   font-size: 0.9em;
   font-weight: 300;
-  color: #ff192d;
+  color: #d6daa9;
 }
 main .theme-guide ul li .anchor-link:hover {
   color: rgba(255, 25, 44, 0.5764705882);
@@ -192,15 +196,15 @@ main .topics-container {
 main .topics-container .title-topics {
   font-size: 1.4em;
   margin-top: 40px;
+  margin-bottom: -10px;
 }
 main .topics-container .ul-topics {
-  margin-top: 30px;
   list-style-position: inside;
   color: rgba(75, 77, 87, 0.9450980392);
 }
 main .topics-container .ul-topics li {
   font-size: 1em;
-  margin-top: 40px;
+  margin-top: 30px;
   color: #ff192d;
   line-height: 1.4em;
 }
