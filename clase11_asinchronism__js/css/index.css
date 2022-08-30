@@ -120,10 +120,13 @@ main .theme-guide ul li {
   color: rgba(248, 253, 194, 0.5254901961);
   line-height: 1.3em;
 }
-main .theme-guide ul li span {
+main .theme-guide ul li .anchor-link {
   font-size: 0.9em;
   font-weight: 300;
-  color: #d6daa9;
+  color: #ff192d;
+}
+main .theme-guide ul li .anchor-link:hover {
+  color: rgba(255, 25, 44, 0.5764705882);
 }
 main .topics-container {
   width: 95%;
