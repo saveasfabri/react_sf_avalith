@@ -26,3 +26,34 @@
     }
   }
 }
+.boton-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .container-button {
+    width: 95%;
+    color: $white-soft;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      width: 100%;
+      height: auto;
+      color: $red;
+      padding: 7px 20px;
+      margin-right: 10px;
+      border: 2px solid $white-soft;
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      &:hover {
+        color: $white-soft;
+        border: 2px solid $red;
+        box-shadow: 1px 1px 5px $red-soft;
+      }          
+    }
+  }
+}

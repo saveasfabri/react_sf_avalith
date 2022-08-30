@@ -18,12 +18,18 @@ body {
     "main main main nav"
     "footer footer footer footer";
 }
+
+/* **** CSS General */
 a {
   text-decoration: none;
   list-style: none;
 }
 p {
   font-size: 1em;
+}
+.p-text {
+  font-weight: 300;
+  margin-top: 20px;
 }
 .line {
   width: 95%;
@@ -45,11 +51,62 @@ p {
   margin-top: 30px;
   margin-left: 2vw;          
 }    
-
-.p-text {
-  font-weight: 300;
-  margin-top: 20px;
+.link-video-container {
+  width: 80%;
+  height: auto;
+  border: 2px solid $white-soft;
+  border-radius: 10px;
+  margin: 20px 0 0 20px;
+  background-color: #1a1a1a;
+  &:hover {
+    color: $white-soft;
+    border: 2px solid $red;
+    box-shadow: 1px 1px 5px $red-soft;
+  }
+  .link-video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px rgb(214 218 169 / 12%);
+    &:hover {
+      filter: brightness(1.5);
+    }
+    .img-container {
+      width: 40%;
+      padding: 5px;
+      border-right: 1px solid $white-soft;
+      display: flex;
+      align-items: center;
+      &:hover {
+        border-right: 1px solid $red;
+        box-shadow: 1px 1px 5px $red-soft;
+      }
+      .link-img {
+      width: 100%; 
+      border-radius: 5px 0 0 5px;      
+      }    
+    }
+    .link-descriptions {
+      width: 60%;
+      height: 100%;
+      margin-left: 10px;
+      .link-text-video {
+        font-size: .9em;
+        margin-top: 20px;
+      }
+      .text-yt {
+        color: $red-soft;
+        font-size: .8em;
+        font-style: italic;
+        margin-top: 30px;
+      }
+    }
+  }
 }
+
+
+/* ************** */
 
 html {
   scroll-behavior: smooth;
@@ -167,38 +224,7 @@ main {
             }
           }
         }            
-      }
-      .boton-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        .link-boton {
-          width: 95%;
-          color: $white-soft;
-          margin-top: 20px;
-          margin-left: 20px;
-          display: flex;
-          justify-content: space-between;
-          a {
-            width: 100%;
-            height: auto;
-            color: $red;
-            padding: 7px 20px;
-            margin-right: 10px;
-            border: 2px solid $white-soft;
-            background-color: #1a1a1a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            &:hover {
-              color: $white-soft;
-              border: 2px solid $red;
-              box-shadow: 1px 1px 5px $red-soft;
-            }          
-          }
-        }
-      }
+      }      
     }
   }
 }
@@ -273,11 +299,7 @@ nav {
     }
   }
 } 
-.p-footer {
-  font-size: .8em;
-  font-weight: 300;
-  font-style: italic;
-}
+
 footer {
   position: relative;
   grid-area: footer;
@@ -293,6 +315,11 @@ footer {
     "footer1 footer2 footer3";
   .space {
     margin-left: 10px;
+  }
+  .p-footer {
+    font-size: .8em;
+    font-weight: 300;
+    font-style: italic;
   }
   .footer-1{
   grid-area: footer1;

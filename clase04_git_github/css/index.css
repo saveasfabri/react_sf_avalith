@@ -15,6 +15,7 @@ body {
   grid-template-areas: "header header header header" "main main main nav" "footer footer footer footer";
 }
 
+/* **** CSS General */
 a {
   text-decoration: none;
   list-style: none;
@@ -22,6 +23,11 @@ a {
 
 p {
   font-size: 1em;
+}
+
+.p-text {
+  font-weight: 300;
+  margin-top: 20px;
 }
 
 .line {
@@ -47,11 +53,61 @@ p {
   margin-left: 2vw;
 }
 
-.p-text {
-  font-weight: 300;
+.link-video-container {
+  width: 80%;
+  height: auto;
+  border: 2px solid #d6daa9;
+  border-radius: 10px;
+  margin: 20px 0 0 20px;
+  background-color: #1a1a1a;
+}
+.link-video-container:hover {
+  color: #d6daa9;
+  border: 2px solid #ff192d;
+  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
+}
+.link-video-container .link-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(214, 218, 169, 0.12);
+}
+.link-video-container .link-video:hover {
+  filter: brightness(1.5);
+}
+.link-video-container .link-video .img-container {
+  width: 40%;
+  padding: 5px;
+  border-right: 1px solid #d6daa9;
+  display: flex;
+  align-items: center;
+}
+.link-video-container .link-video .img-container:hover {
+  border-right: 1px solid #ff192d;
+  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
+}
+.link-video-container .link-video .img-container .link-img {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+.link-video-container .link-video .link-descriptions {
+  width: 60%;
+  height: 100%;
+  margin-left: 10px;
+}
+.link-video-container .link-video .link-descriptions .link-text-video {
+  font-size: 0.9em;
   margin-top: 20px;
 }
+.link-video-container .link-video .link-descriptions .text-yt {
+  color: rgba(255, 25, 44, 0.5764705882);
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 30px;
+}
 
+/* ************** */
 html {
   scroll-behavior: smooth;
 }
@@ -158,37 +214,6 @@ main .topics-container .ul-topics li .sub-ul-topics li span {
   font-size: 0.9em;
   font-weight: 300;
 }
-main .topics-container .ul-topics .boton-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-main .topics-container .ul-topics .boton-container .link-boton {
-  width: 95%;
-  color: #d6daa9;
-  margin-top: 20px;
-  margin-left: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-main .topics-container .ul-topics .boton-container .link-boton a {
-  width: 100%;
-  height: auto;
-  color: #ff192d;
-  padding: 7px 20px;
-  margin-right: 10px;
-  border: 2px solid #d6daa9;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-main .topics-container .ul-topics .boton-container .link-boton a:hover {
-  color: #d6daa9;
-  border: 2px solid #ff192d;
-  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
-}
 
 nav {
   margin-top: 50px;
@@ -255,12 +280,6 @@ nav .nav-menu-container .nav-img-link:hover span {
   color: #ff192d;
 }
 
-.p-footer {
-  font-size: 0.8em;
-  font-weight: 300;
-  font-style: italic;
-}
-
 footer {
   position: relative;
   grid-area: footer;
@@ -276,6 +295,11 @@ footer {
 }
 footer .space {
   margin-left: 10px;
+}
+footer .p-footer {
+  font-size: 0.8em;
+  font-weight: 300;
+  font-style: italic;
 }
 footer .footer-1 {
   grid-area: footer1;
@@ -346,6 +370,7 @@ body {
   grid-template-areas: "header header header header" "main main main nav" "footer footer footer footer";
 }
 
+/* **** CSS General */
 a {
   text-decoration: none;
   list-style: none;
@@ -353,6 +378,11 @@ a {
 
 p {
   font-size: 1em;
+}
+
+.p-text {
+  font-weight: 300;
+  margin-top: 20px;
 }
 
 .line {
@@ -378,11 +408,61 @@ p {
   margin-left: 2vw;
 }
 
-.p-text {
-  font-weight: 300;
+.link-video-container {
+  width: 80%;
+  height: auto;
+  border: 2px solid #d6daa9;
+  border-radius: 10px;
+  margin: 20px 0 0 20px;
+  background-color: #1a1a1a;
+}
+.link-video-container:hover {
+  color: #d6daa9;
+  border: 2px solid #ff192d;
+  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
+}
+.link-video-container .link-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(214, 218, 169, 0.12);
+}
+.link-video-container .link-video:hover {
+  filter: brightness(1.5);
+}
+.link-video-container .link-video .img-container {
+  width: 40%;
+  padding: 5px;
+  border-right: 1px solid #d6daa9;
+  display: flex;
+  align-items: center;
+}
+.link-video-container .link-video .img-container:hover {
+  border-right: 1px solid #ff192d;
+  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
+}
+.link-video-container .link-video .img-container .link-img {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+.link-video-container .link-video .link-descriptions {
+  width: 60%;
+  height: 100%;
+  margin-left: 10px;
+}
+.link-video-container .link-video .link-descriptions .link-text-video {
+  font-size: 0.9em;
   margin-top: 20px;
 }
+.link-video-container .link-video .link-descriptions .text-yt {
+  color: rgba(255, 25, 44, 0.5764705882);
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 30px;
+}
 
+/* ************** */
 html {
   scroll-behavior: smooth;
 }
@@ -489,37 +569,6 @@ main .topics-container .ul-topics li .sub-ul-topics li span {
   font-size: 0.9em;
   font-weight: 300;
 }
-main .topics-container .ul-topics .boton-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-main .topics-container .ul-topics .boton-container .link-boton {
-  width: 95%;
-  color: #d6daa9;
-  margin-top: 20px;
-  margin-left: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-main .topics-container .ul-topics .boton-container .link-boton a {
-  width: 100%;
-  height: auto;
-  color: #ff192d;
-  padding: 7px 20px;
-  margin-right: 10px;
-  border: 2px solid #d6daa9;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-main .topics-container .ul-topics .boton-container .link-boton a:hover {
-  color: #d6daa9;
-  border: 2px solid #ff192d;
-  box-shadow: 1px 1px 5px rgba(255, 25, 44, 0.5764705882);
-}
 
 nav {
   margin-top: 50px;
@@ -586,12 +635,6 @@ nav .nav-menu-container .nav-img-link:hover span {
   color: #ff192d;
 }
 
-.p-footer {
-  font-size: 0.8em;
-  font-weight: 300;
-  font-style: italic;
-}
-
 footer {
   position: relative;
   grid-area: footer;
@@ -607,6 +650,11 @@ footer {
 }
 footer .space {
   margin-left: 10px;
+}
+footer .p-footer {
+  font-size: 0.8em;
+  font-weight: 300;
+  font-style: italic;
 }
 footer .footer-1 {
   grid-area: footer1;
