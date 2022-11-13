@@ -1,0 +1,233 @@
+
+//timing
+$animation-time: .4s;
+
+//sizing
+$box-height: 70px;
+$box-width: 200px;
+$distance: 5px;
+$path-width: 2px;
+$inner-distance: 5px;
+
+//color
+$border-color: #25eac9;
+$color-sky-blue: #25eac9;
+
+//functions
+$clip-size-h: $box-width + $distance * 2;
+$clip-size-v: $box-height + $distance * 2;
+
+// normalize
+body {
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+}
+main {
+  margin-left: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 120vh;
+  border: 3px solid $color-sky-blue;  
+  background-image: url(../img/27365-rick-y-morty.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+
+  .container-btns-home {
+    margin-top: 250px;
+    margin-left: 70px;
+    width: 50%;    
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+
+    .btn-home {
+      text-align: center;
+      position: relative;
+      width: $box-width;
+      height: $box-height;
+      border: $path-width solid $color-sky-blue; 
+      box-shadow: 0 0 15px $color-sky-blue;
+      margin-top: 25px;
+      transition: all .3s ease-out;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      h2 {
+        width: 100%;
+        position: relative;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-size: 1.2em;
+        line-height: 66px;
+        transition: all $animation-time cubic-bezier(.5,.49,.92,.94);
+        &:first-letter{
+          margin-left: 5px;
+        }
+      
+        &::after {
+          position: absolute;
+          opacity: 0;
+          content: '';
+          display: block;
+          border: 2px solid transparent;
+          width: $box-width - 2 * $inner-distance;
+          height: $box-height - 2 * $inner-distance;
+          top: 3px;
+          left: 3px;
+          transition: all calc($animation-time / 3) cubic-bezier(0.000, 0.995, 0.990, 1.000) calc($animation-time / 3);
+          clip: rect(0px $box-width $box-height 0px);
+        }
+        &::before {
+          position: absolute;
+          opacity: 0;
+          content: '';
+          display: block;
+          border: 2px solid transparent;
+          width: $box-width - 2 * $inner-distance;
+          height: $box-height - 2 * $inner-distance;
+          bottom: 3px;
+          right: 3px;
+          transition: all calc($animation-time / 3) cubic-bezier(0.000, 0.995, 0.990, 1.000) calc($animation-time / 3);
+          clip: rect(0px $box-width $box-height 0px);
+        }
+      }
+      .btns-styles-home{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+      }
+
+      .btn-home-cards {
+        background-image: url(../img/bg_button-cards.jpg);
+      }
+      .btn-home-tablet {
+        background-image: url(../img/bg_button-table.jpg);
+      }
+      .btn-home-form {    
+        background-image: url(../img/bg_button-form.jpg);
+      }
+
+      .top {
+        display: block;
+        width: 0;
+        height: $path-width;
+        position: absolute;
+        top: -1 * $distance;
+        left: -1 * $distance;
+        box-shadow: 0 0 5px $color-sky-blue;
+        transition: all $animation-time cubic-bezier(0.000, 0.995, 0.990, 1.00);
+      }
+
+      .right {
+        display: block;
+        width: $path-width;
+        height: 0;
+        position: absolute;
+        top: -1 * $distance;
+        right: -1 * $distance;
+        box-shadow: 0 0 5px $color-sky-blue;
+        transition: all $animation-time cubic-bezier(0.000, 0.995, 0.990, 1.000);
+      }
+
+      .bottom {
+        display: block;
+        width: 0;
+        height: $path-width;
+        position: absolute;
+        bottom: -1 * $distance;
+        right: -1 * $distance;
+        box-shadow: 0 0 5px $color-sky-blue;
+        transition: all $animation-time cubic-bezier(0.000, 0.995, 0.990, 1.000);
+      }
+      .left {
+        display: block;
+        width: $path-width;
+        height: 0;
+        position: absolute;
+        bottom: -1 * $distance;
+        left: -1 * $distance;
+        box-shadow: 0 0 5px $color-sky-blue;
+        transition: all $animation-time cubic-bezier(0.000, 0.995, 0.990, 1.000);
+      }
+
+      &:hover { 
+        transform: scale(1.1);
+        border: none; 
+        box-shadow: none;
+        
+        .btns-styles-home {
+          filter: brightness(2.5);
+        }
+        .top {
+          background: $color-sky-blue;/* rgba(255, 255, 255, .5) */;
+          width: $box-width + $distance * 2 - $path-width;
+        }
+
+        .right {
+          background: $color-sky-blue;
+          height: $box-height + $distance * 2 - $path-width;
+        }
+
+        .bottom {
+          background: $color-sky-blue;
+          width: $box-width + $distance * 2 - $path-width;
+        }
+        .left {
+          background: $color-sky-blue;
+          height: $box-height + $distance * 2 - $path-width;
+        }
+        h2 {
+          width: 100%;
+          color: white;
+          letter-spacing: 15px;
+          font-size: 20px;
+          &:first-letter{
+            margin-left: 15px;
+          }
+        
+          &::after {
+            opacity: 1;
+            border: 3px solid #fff;
+            clip: rect(0px 2 * $inner-distance $box-height 0px)
+          }
+          &::before {
+            opacity: 1;
+            border: 3px solid #fff;
+            clip: rect(0px $box-width $box-height $box-width - 4 * $inner-distance);
+            //clip: rect(0px 2 * $inner-distance $box-height $box-width - 4 * $inner-distance)
+          }
+        }
+      }
+      &:active {
+        transition: all .1s ease-out;
+        transform: scale(1);
+        .btns-styles-home {
+          filter: brightness(5);
+        }
+        h2 {
+          display: none;
+        }
+      }  
+    }
+  }
+}

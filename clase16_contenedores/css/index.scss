@@ -1,16 +1,17 @@
 @import '../../a_general_scss/general';
 @import '../../a_general_scss/variables';
+@import './buttons';
+
 
 
 //configurado en ./css/_generales.scss
 
-
 .img-code {
   margin-top: 20px;
-  width: 80%;
+  width: 100%;
 }
 .ex-img {
-  width: 80%;
+  width: 100%;
   margin: 20px 0 0 20px;
   box-shadow: 0 0 15px #d6daa91e;
 }
@@ -50,3 +51,4 @@
     align-items: center;
   }
 }
+/* end */
